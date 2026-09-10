@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoldenPaw &mdash; The Series</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      color: #222;
+      background: #fafafa;
+    }
+    .series-title-block {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding: 2.5rem 0;
+      border-bottom: 3px double #999;
+    }
+    .series-title {
+      font-size: 3.2em;
+      font-weight: normal;
+      letter-spacing: 0.05em;
+      margin: 0 0 0.3em 0;
+      color: #1a1a1a;
+    }
+    .series-subtitle {
+      font-size: 1.1em;
+      font-style: italic;
+      color: #666;
+      margin: 0;
+    }
+    .series-intro {
+      max-width: 38rem;
+      margin: 0 auto 3.5rem auto;
+      text-align: center;
+      font-style: italic;
+      color: #555;
+    }
+    .stories-heading {
+      text-align: center;
+      font-size: 0.9em;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #777;
+      margin: 0 0 2rem 0;
+    }
+    .story-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .story-list li {
+      margin: 0 0 1.5rem 0;
+    }
+    .story-card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 1.5rem 1.75rem;
+      background: #fff;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .story-card:hover {
+      border-color: #8a5a2b;
+      box-shadow: 0 2px 10px rgba(138, 90, 43, 0.12);
+    }
+    .story-index {
+      font-size: 0.8em;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: #999;
+      margin: 0 0 0.4em 0;
+    }
+    .story-name {
+      font-size: 1.6em;
+      font-weight: normal;
+      margin: 0 0 0.3em 0;
+      color: #1a1a1a;
+    }
+    .story-card:hover .story-name {
+      color: #8a5a2b;
+    }
+    .story-setting {
+      font-style: italic;
+      font-size: 0.95em;
+      color: #666;
+      margin: 0 0 0.6em 0;
+    }
+    .story-blurb {
+      font-size: 0.95em;
+      color: #444;
+      margin: 0;
+    }
+    .coming-soon {
+      text-align: center;
+      margin: 3rem 0 2rem 0;
+      font-style: italic;
+      color: #999;
+      font-size: 0.95em;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #ccc;
+      font-size: 0.85em;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="series-title-block">
+    <h1 class="series-title">GoldenPaw</h1>
+    <p class="series-subtitle">Stories of the world's fastest guardian</p>
+  </header>
+
+  <p class="series-intro">
+    Not entirely of this place. Not entirely human. Across mountains, ruins,
+    and the quiet places where old things wait, GoldenPaw answers the calls
+    that no one else can hear.
+  </p>
+
+  <main>
+    <h2 class="stories-heading">The Stories</h2>
+
+    <ol class="story-list">
+
+      <li>
+        <a class="story-card" href="the-second-frequency.html">
+          <p class="story-index">Story One</p>
+          <h3 class="story-name">The Second Frequency</h3>
+          <p class="story-setting">Jiankou, the Great Wall &mdash; Huairou, China</p>
+          <p class="story-blurb">
+            A signal that matches no known equipment pulses from the wild,
+            broken heart of the Great Wall. An old man has been waiting
+            eleven years for someone to give a notebook to. And a stone that
+            calls once a decade is entering its final night.
+          </p>
+        </a>
+      </li>
+
+      <!-- Template for future stories: copy the block below, update the
+           href, index, name, setting, and blurb.
+
+      <li>
+        <a class="story-card" href="story-file-name.html">
+          <p class="story-index">Story Two</p>
+          <h3 class="story-name">Story Title</h3>
+          <p class="story-setting">Location</p>
+          <p class="story-blurb">
+            One- or two-sentence teaser for the story.
+          </p>
+        </a>
+      </li>
+
+      -->
+
+    </ol>
+
+    <p class="coming-soon">More stories coming soon.</p>
+  </main>
+
+  <footer>
+    <p>The GoldenPaw Series</p>
+  </footer>
+
+</body>
+</html>

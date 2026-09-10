@@ -28,6 +28,26 @@
     .back-link:hover {
       text-decoration: underline;
     }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid #ccc;
+      scroll-margin-top: 2rem;
+    }
+    .chapter-number {
+      font-size: 0.9em;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #777;
+      margin: 0 0 0.5em 0;
+    }
+    h1 {
+      font-size: 2.2em;
+      font-weight: normal;
+      margin: 0;
+      color: #222;
+    }
     .title-block {
       text-align: center;
       margin-bottom: 3rem;
@@ -170,12 +190,12 @@
 
   <a class="back-link" href="index.html">&larr; All Stories</a>
 
-  <header class="title-block">
+  <div class="title-block">
     <p class="series-label">A GoldenPaw Story</p>
     <!-- TODO: Replace "Untitled" with the final story title -->
     <h1 class="story-title">Untitled</h1>
     <p class="story-setting">Thyangoche, the Khumbu &mdash; Nepal</p>
-  </header>
+  </div>
 
   <nav class="toc" id="toc" aria-label="Table of contents">
     <p class="toc-heading">Contents</p>
@@ -185,8 +205,10 @@
   </nav>
 
   <main>
-    <h2 class="chapter-heading">Chapter One</h2>
-<p class="chapter-title">Off the Trail</p>
+    <header id="chapter-1">
+    <p class="chapter-number">Chapter One</p>
+    <h1>Off the Trail</h1>
+  </header>
 
     <p>The wind had no mercy at 5,400 metres.</p>
 

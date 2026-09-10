@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Segunda Frequência &mdash; GoldenPaw em Jiankou</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      color: #222;
+      background: #fafafa;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid #ccc;
+      scroll-margin-top: 2rem;
+    }
+    .chapter-number {
+      font-size: 0.9em;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #777;
+      margin: 0 0 0.5em 0;
+    }
+    h1 {
+      font-size: 2.2em;
+      font-weight: normal;
+      margin: 0;
+      color: #222;
+    }
+    .story-title-block {
+      text-align: center;
+      margin-bottom: 4rem;
+      padding: 2.5rem 0;
+      border-bottom: 3px double #999;
+    }
+    .series-label {
+      font-size: 0.8em;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #999;
+      margin: 0 0 0.8em 0;
+    }
+    .story-title {
+      font-size: 3em;
+      font-weight: normal;
+      letter-spacing: 0.05em;
+      margin: 0 0 0.3em 0;
+      color: #1a1a1a;
+    }
+    .story-subtitle {
+      font-size: 1.1em;
+      font-style: italic;
+      color: #666;
+      margin: 0;
+    }
+    .toc {
+      margin: 0 auto 4rem auto;
+      padding: 1.5rem 1rem;
+      max-width: 30rem;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+      scroll-margin-top: 2rem;
+    }
+    .toc-heading {
+      font-size: 0.9em;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #777;
+      margin: 0 0 1em 0;
+    }
+    .toc ol {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .toc li {
+      margin: 0.6em 0;
+    }
+    .toc a {
+      color: #222;
+      text-decoration: none;
+      border-bottom: 1px dotted #999;
+    }
+    .toc a:hover {
+      color: #8a5a2b;
+      border-bottom-color: #8a5a2b;
+    }
+    .toc .toc-chapter-number {
+      font-size: 0.85em;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #999;
+      margin-right: 0.6em;
+    }
+    .back-to-toc {
+      text-align: center;
+      margin: 3rem 0 4rem 0;
+    }
+    .back-to-toc a {
+      font-size: 0.85em;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #999;
+      text-decoration: none;
+      border-bottom: 1px dotted #bbb;
+      padding-bottom: 0.15em;
+    }
+    .back-to-toc a:hover {
+      color: #8a5a2b;
+      border-bottom-color: #8a5a2b;
+    }
+    p {
+      margin: 1.2em 0;
+    }
+    figure {
+      margin: 2em 0;
+      text-align: center;
+    }
+    figure img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    figcaption {
+      font-style: italic;
+      font-size: 0.95em;
+      color: #555;
+      margin-top: 0.6em;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #ccc;
+      font-size: 0.85em;
+      color: #999;
+    }
+    footer a {
+      color: #8a5a2b;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .chapter-audio {
+  margin: 1rem 0 0;
+  font-size: 0.9em;
+}
+
+.chapter-audio a {
+  color: #8a5a2b;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.chapter-audio a:hover {
+  color: #593919;
+}
+
+.chapter-audio a:focus-visible {
+  outline: 2px solid #8a5a2b;
+  outline-offset: 4px;
+}
+  </style>
+</head>
+<body>
+<article>
+
+  <a class="back-link" href="index.html">&larr; Todas as histórias</a>
+  
+  <div class="story-title-block">
+    <p class="series-label">Uma história de GoldenPaw</p>
+    <h1 class="story-title">A Segunda Frequência</h1>
+    <p class="story-subtitle">Jiankou, a Grande Muralha &mdash; Huairou, China</p>
+  </div>
+
+  <nav class="toc" id="toc" aria-label="Sumário">
+    <p class="toc-heading">Sumário</p>
+    <ol>
+      <li><a href="#chapter-1"><span class="toc-chapter-number">Capítulo Um</span>O Fôlego Suspenso</a></li>
+      <li><a href="#chapter-2"><span class="toc-chapter-number">Capítulo Dois</span>Ela Apenas Chama</a></li>
+      <li><a href="#chapter-3"><span class="toc-chapter-number">Capítulo Três</span>O Lugar Sob o Lugar</a></li>
+      <li><a href="#chapter-4"><span class="toc-chapter-number">Capítulo Quatro</span>Duas Coisas ao Mesmo Tempo</a></li>
+      <li><a href="#chapter-5"><span class="toc-chapter-number">Capítulo Cinco</span>O Tipo Certo de Ser</a></li>
+    </ol>
+  </nav>
+
+  <header id="chapter-1">
+  <p class="chapter-number">Capítulo Um</p>
+  <h1>O Fôlego Suspenso</h1>
+  <p class="chapter-audio">
+    <a href="https://pfst.cf2.poecdn.net/base/audio/13d6c792ce4a1e7476435c3d07deee028f86c4327d6da4635ccd59a15f978de3?pmaid=652272621"
+       target="_blank" rel="noopener noreferrer">
+      Ouvir o áudio do Capítulo 1 (abre em nova aba)
+    </a>
+  </p>
+</header>
+
+  <p>A escuridão antes do amanhecer sobre o vilarejo de Xizhazi era daquelas que pressionavam o mundo como a palma de uma mão sobre a água, pesada e absoluta. Uma única lâmpada ardia em âmbar na janela da pousada rural da velha senhora Feng, seu brilho não indo além do pátio de cascalho onde galinhas dormiam amontoadas e silenciosas sob um caquizeiro. Além do pátio, as montanhas de Huairou se erguiam em massas negras contra um céu salpicado de estrelas frias e, em algum ponto acima daquelas montanhas, invisível mas ancestral, a Grande Muralha de Jiankou serpenteava pela crista como a espinha de um dragão adormecido.</p>
+
+  <p>GoldenPaw pousou na estrada à entrada do vilarejo sem fazer ruído algum.</p>
+
+  <p>Era esse o segredo que a maioria das pessoas nunca compreendia a seu respeito &mdash; a velocidade era fácil. A velocidade era um direito de nascença, algo inscrito nos músculos longos de suas ancas e na arquitetura profunda de sua coluna. Era a <em>imobilidade</em> que exigia esforço. Ele ficou à beira da viela de cascalho e deixou a noite se acomodar ao seu redor, a pelagem malhada ondulando de leve na brisa da montanha, os painéis entretecidos de ouro de seu traje captando a luz das estrelas e devolvendo-a em lampejos quentes. Seus olhos âmbar &mdash; enormes e feitos sob medida para a escuridão &mdash; leram o vilarejo numa única varredura sem pressa. Quatorze casas de fazenda. Três pousadas. Um gerador zumbindo atrás de um muro de concreto. Nenhum movimento.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/fa3ec781698ca8ee2d7e46abe8f13cc85965c218ae44c08675ae933fa2ec4846?w=1376&h=768&pmaid=651426644" alt="GoldenPaw permanece imóvel na viela de cascalho do vilarejo de Xizhazi à noite, a capa agitada pela brisa, com casas rurais e montanhas ao fundo.">
+    <figcaption>GoldenPaw permanece imóvel na viela de cascalho de Xizhazi, a capa ao sabor da fria brisa da montanha enquanto seus olhos âmbar percorrem as casas silenciosas e o pátio escuro.</figcaption>
+  </figure>
+
+  <p>Ele ergueu a mão e tocou o receptor de comunicação atrás da orelha esquerda.</p>
+
+  <p>&mdash; Estou na base &mdash; disse baixinho. &mdash; Xizhazi. Tudo tranquilo.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/d29fdcfcc14c71e61d2deb294536f26c5c2987ca11f7badc5980f35604eb6163?w=1376&h=768&pmaid=651426646" alt="GoldenPaw leva a mão protegida por uma manopla ao receptor atrás da orelha, os painéis dourados do traje reluzindo, com uma lua crescente ao fundo.">
+    <figcaption>Com a mão protegida pela manopla erguida até o receptor, GoldenPaw informa sua chegada a Xizhazi &mdash; os painéis do traje reluzindo em dourado contra a escuridão da montanha, uma lua crescente surgindo atrás dele.</figcaption>
+  </figure>
+
+  <p>A voz que respondeu era seca e concisa, de uma mulher chamada Dra. Shen Wei, que trabalhava numa estação de monitoramento no distrito de Huairou, em Pequim, e que, até onde GoldenPaw sabia, jamais desperdiçara uma sílaba sequer. &mdash; Confirmado. O satélite passou há três minutos. Você tem uma janela de noventa minutos antes da próxima passagem. O sinal que detectamos vem do trecho central &mdash; de algum ponto entre o Nó de Pequim e o acesso à Águia que Voa para o Alto. Ainda não conseguimos determinar a localização com mais precisão.</p>
+
+  <p>&mdash; Entendido. &mdash; Ele olhou montanha acima. Uma trilha estreita partia do vilarejo por um bosque de álamos de casca clara, subindo íngreme pela escuridão. &mdash; O que estou procurando, exatamente?</p>
+
+  <p>Uma pausa &mdash; incomumente longa para a Dra. Shen. &mdash; Não sabemos. O sinal não corresponde a nenhum equipamento registrado. Não é rádio, não é uma emissão eletromagnética convencional. É algo mais antigo. &mdash; Outra pausa. &mdash; Ou algo que só parece mais antigo.</p>
+
+  <p>A cauda de GoldenPaw se moveu uma vez, num arco lento e involuntário. Ao longo dos anos, ele aprendera a confiar naquele movimento específico. Acontecia quando seu corpo registrava algo que sua mente ainda não havia alcançado. &mdash; Entro em contato quando chegar à crista &mdash; disse.</p>
+
+  <p>Ele começou a subir a trilha a passos de caminhada, o que era uma escolha. O caminho de Xizhazi até a muralha levava uma hora e meia para a maioria dos caminhantes. GoldenPaw não era a maioria dos caminhantes, e também não estava com pressa &mdash; ainda. A montanha tinha coisas a dizer, se lhe dessem a chance de dizê-las. Os álamos foram rareando e deram lugar a sumagres e moitas de romãzeiras silvestres, os galhos sem folhas no frio do fim do outono, as raízes penetrando silenciosamente na antiga argamassa de cal de muros que ele ainda não conseguia ver, mas já podia sentir, como se sente um rio antes de ouvi-lo. O ar tinha gosto de pedra fria, resina de pinho e mais alguma coisa &mdash; algo levemente elétrico, como a atmosfera carregada antes de uma tempestade, só que o céu estava sem nuvens e imóvel.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/af32635472d338ac40ca5b9c1d1c6acbb8ec4bd2ec10293e4c3ed99adc21077b?w=1376&h=768&pmaid=651426647" alt="GoldenPaw sobe a pé uma trilha íngreme entre álamos de casca clara sob um céu estrelado.">
+    <figcaption>GoldenPaw sobe a passos deliberados por um bosque de álamos de casca clara, a trilha avançando íngreme pela escuridão salpicada de estrelas em direção à crista acima.</figcaption>
+  </figure>
+
+  <p>Ele registrou aquilo sem tirar conclusões e continuou a subir.</p>
+
+  <p>A muralha apareceu como a maioria das coisas aparece no escuro &mdash; não de uma vez, mas aos poucos, uma sugestão de geometria onde a montanha não tinha por que ser geométrica. Um recorte de ameia contra as estrelas. Depois uma torre de vigia, o topo arruinado, uma parede desabada para dentro, sumagres crescendo pela abertura com uma ambição paciente e destrutiva. Os tijolos da dinastia Ming estavam escuros de séculos de intempéries, muitos deles marcados com caracteres que ele conseguia ler à luz das estrelas &mdash; nomes de províncias, nomes de famílias, as assinaturas dos homens que os haviam assentado quinhentos anos antes e jamais imaginaram algo como ele ali, lendo-as.</p>
+
+  <p>Ele encostou a mão na muralha e sentiu o frio disparar pela palma.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/64e61c3d30fe3534e737988d3780b668aa8c79eb7b136de5c2cbab06c45865c1?w=1376&h=768&pmaid=651426651" alt="GoldenPaw pressiona a palma contra a antiga parede de tijolos, com caracteres gravados visíveis, uma torre de vigia em ruínas e a lua ao fundo.">
+    <figcaption>Ele pressiona a palma contra os antigos tijolos Ming, lendo os caracteres gravados à luz das estrelas &mdash; e sente a carga elétrica subir, fria, por sua mão.</figcaption>
+  </figure>
+
+  <p>O gosto elétrico no ar era mais forte ali. Muito mais forte. Ele virou a cabeça devagar, deixando as orelhas se orientarem para a frente, e ouviu algo que não esperava: silêncio. Não o silêncio de uma montanha vazia, que tinha sua própria textura &mdash; o roçar de uma ave noturna, a percussão distante da água sobre o calcário, o ranger de galhos nus. Era o outro tipo de silêncio. O tipo que significava que algo ali perto prendia a respiração.</p>
+
+  <p>GoldenPaw se agachou rente ao chão e avançou para leste pela muralha, aproveitando a sombra do parapeito.</p>
+
+  <p>O caminho sobre o trecho de Jiankou não tinha nada do passeio largo e bem cuidado de Mutianyu, a leste. Ali, era pedra fraturada e buracos escancarados onde os tijolos simplesmente haviam desistido e caído no vale abaixo &mdash; um vale que, no escuro, era uma profundidade insondável de negrume. Ele atravessava a superfície quebrada com a precisão cuidadosa de algo que fora projetado, em algum ponto remoto de sua evolução, para cruzar terrenos difíceis em alta velocidade sem olhar para baixo. Suas garras encontravam apoio onde uma bota teria escorregado. Seu peso se deslocava para a frente, sobre os nós dos dedos, quando o caminho se estreitava a uma beirada esfarelada de menos de trinta centímetros.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/a48e5a2f63c3f84cc1be67bf669627af54b4139ce8fd132b030549a91bb8fe4a?w=1376&h=768&pmaid=651426652" alt="GoldenPaw avança agachado, apoiado nos nós dos dedos e nas garras, atravessando o caminho de pedra fraturada da Grande Muralha sob a Via Láctea.">
+    <figcaption>Com o peso projetado sobre os nós dos dedos e as garras encontrando apoio na pedra fraturada, GoldenPaw atravessa o caminho arruinado de Jiankou com a precisão fluida de algo feito exatamente para isso.</figcaption>
+  </figure>
+
+  <p>Adiante, a muralha fazia uma curva fechada à esquerda e iniciava sua primeira subida de verdade.</p>
+
+  <p>Ele parou.</p>
+
+  <p>Havia uma luz &mdash; não o calor âmbar de uma lâmpada nem o branco azulado da tela de um celular. Aquilo era diferente. Pulsava de algum lugar depois da curva da muralha, lenta e profunda, da cor de cobre aquecido, e não projetava sombras no sentido convencional. Em vez disso, parecia absorver a escuridão ao redor, puxando a noite para dentro em vez de afastá-la. GoldenPaw a observou pulsar duas, três vezes, cada batida no ritmo de um coração em repouso, sem pressa e paciente.</p>
+
+  <p>Ele se colou à face interna do parapeito e avançou cautelosamente mais dez metros.</p>
+
+  <p>A fonte da luz apareceu.</p>
+
+  <p>Estava no centro do caminho rachado, bem entre dois trechos intactos de ameias, e tinha mais ou menos o tamanho e o formato de uma grande pedra de rio &mdash; lisa, escura e banal, exceto pela luz de cobre que respirava em sua superfície. Ao redor dela, os tijolos antigos haviam sido dispostos num padrão claramente intencional &mdash; oito deles retirados dos escombros próximos e colocados num círculo irregular, cada um com a marca gravada voltada para dentro. Alguém fizera aquilo de propósito. Recentemente, a julgar pela geada remexida sobre a pedra.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/731e2229cbb30502266bf2e9c6f61f8075832f5e75dcd325957b3d44fb51e47c?w=1376&h=768&pmaid=651426648" alt="Uma pedra escura e lisa, brilhando em cobre, repousa no centro de um círculo de tijolos marcados sobre o caminho coberto de geada da Grande Muralha, com GoldenPaw agachado por perto.">
+    <figcaption>A fonte: uma pedra escura e lisa pulsando luz de cobre no centro de um círculo intencional de oito peças de tijolo marcadas, a geada remexida ao redor indicando uma presença humana recente.</figcaption>
+  </figure>
+
+  <p>GoldenPaw ficou imóvel por um longo momento, estudando o objeto à distância, o nariz trabalhando no ar frio. Pedra, sim. E algo mineral que ele não sabia nomear. E, por baixo disso &mdash; o mais tênue vestígio de um corpo de sangue quente. Humano. Masculino. Presente nas últimas duas horas.</p>
+
+  <p>Ele tocou o receptor. &mdash; Dra. Shen. Estou vendo alguma coisa.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/0012d4fdee4ecd1ec1f799edbf88770401f3731c952d8d9e6a8436253a77d10c?w=1376&h=768&pmaid=651426649" alt="Close do rosto de GoldenPaw enquanto toca o receptor, os olhos âmbar concentrados, os bigodes voltados para a frente, com ruínas de pedra ao fundo.">
+    <figcaption>Seu rosto em close ao tocar o receptor &mdash; olhos âmbar fixos no objeto pulsante, expressão cuidadosamente neutra, bigodes para a frente, lendo tudo o que o ar tem a oferecer.</figcaption>
+  </figure>
+
+  <p>&mdash; Descreva.</p>
+
+  <p>Ele descreveu. O silêncio do outro lado durou tanto que ele verificou a conexão duas vezes. Quando ela voltou a falar, sua voz concisa havia mudado de um jeito sutil e, por isso mesmo, alarmante. &mdash; Não toque nisso &mdash; disse. &mdash; Não toque ainda. Preciso fazer uma ligação.</p>
+
+  <p>&mdash; Isso não é nada tranquilizador.</p>
+
+  <p>&mdash; Não &mdash; concordou ela, com uma franqueza incomum. &mdash; Não é.</p>
+
+  <p>GoldenPaw manteve a posição, agachado à sombra de uma torre de vigia da dinastia Ming que lentamente se transformava em árvore, enquanto a luz de cobre continuava a pulsar no escuro abaixo dele, as montanhas prendiam a respiração e as estrelas avançavam seu centímetro imperceptível pelo céu. Em algum ponto lá no fundo do vale, um galo cantou &mdash; absurdamente cedo, como se a ave tivesse erguido os olhos para aquela montanha e decidido que a manhã devia começar imediatamente, por excesso de cautela.</p>
+
+  <p>Ele compreendia perfeitamente o impulso.</p>
+
+  <p>O vento mudou, deslizando da alta crista a oeste, e trouxe algo novo &mdash; não um cheiro dessa vez, mas um som. Passos. Deliberados, compassados, avançando pela muralha em sua direção, vindos do leste, da ligação com Mutianyu. Alguém que conhecia aquele caminho. Alguém que já o percorrera antes.</p>
+
+  <p>GoldenPaw não se moveu. Esperou. Em sua experiência, a coisa mais útil que a velocidade podia fazer era permanecer inteiramente em potencial.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/7ffe88d83bde00700184184e32393aaf4873b2180509846d2c846ebb2c3d67db?w=1376&h=768&pmaid=651426645" alt="GoldenPaw se agacha junto ao parapeito da Grande Muralha ao crepúsculo, a capa espalhada sobre a pedra, um artefato luminoso de cobre pairando à sua frente.">
+    <figcaption>Colado à face interna do parapeito, a capa espalhada sobre a pedra fria, GoldenPaw mantém a posição &mdash; todos os músculos prontos para agir, a luz de cobre do artefato aquecendo suas mãos enquanto os passos se aproximam pelo leste.</figcaption>
+  </figure>
+
+  <p class="back-to-toc"><a href="#toc">&uarr; Sumário</a></p>
+
+  <header id="chapter-2">
+  <p class="chapter-number">Capítulo Dois</p>
+  <h1>Ela Apenas Chama</h1>
+  <p class="chapter-audio">
+    <a href="https://pfst.cf2.poecdn.net/base/audio/24bd9e180f2d0cbc8a121818b59c6825183556bcb9a2ccf6d8bcbb50908bc371?pmaid=652275931"
+       target="_blank" rel="noopener noreferrer">
+      Ouvir o áudio do Capítulo 2 (abre em nova aba)
+    </a>
+  </p>
+</header>
+
+  <p>Os passos não tinham pressa. Essa foi a primeira coisa. Quem quer que estivesse avançando de leste para oeste pelo caminho de Jiankou não fugia de nada nem procurava com aquela inquietação de quem perdeu alguma coisa, os olhos varrendo tudo ao redor. Movia-se no ritmo constante e econômico de alguém que já fizera aquela caminhada vezes suficientes para deixar de temê-la &mdash; as pedras quebradas, os precipícios sem proteção, os trechos em que a muralha se estreitava até quase desaparecer sobre o vazio.</p>
+
+  <p>GoldenPaw contou os passos. Aproximadamente sessenta quilos. Uma pessoa só. Nenhum peso extra de equipamento além do que a cadência sugeria ser uma mochila leve. Ele se achatou ainda mais contra a face interna do parapeito e esperou.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/a7141dae9ae76d46743c0065b6fe68bbf8864be3709fe0294fcabdc7501e8623?w=1376&h=768&pmaid=651489061" alt="GoldenPaw permanece colado ao parapeito sob a Via Láctea, a capa dourada captando a luz das estrelas, a Grande Muralha serpenteando atrás dele.">
+    <figcaption>GoldenPaw mantém a posição junto ao parapeito, envolto em sombras sob a Via Láctea, à espera da figura que se aproxima.</figcaption>
+  </figure>
+
+  <p>A figura surgiu na curva da muralha sem carregar luz alguma.</p>
+
+  <p>Essa foi a segunda coisa.</p>
+
+  <p>Era um homem de talvez sessenta anos, esguio do jeito que a vida nas montanhas torna as pessoas esguias &mdash; não magro, mas compactado, tudo o que era desnecessário consumido pela altitude e pelo uso. Vestia uma jaqueta de trabalho acolchoada da cor de musgo velho, calças enfiadas em botas de sola de borracha e um gorro de tricô puxado sobre as orelhas. Caminhava com as mãos um pouco afastadas do corpo para se equilibrar, sentindo a textura da muralha com o dorso dos nós dos dedos, como um cego lê um cômodo conhecido. Seus olhos, quando GoldenPaw conseguiu vê-los de perfil, estavam fixos não na pedra de brilho acobreado no centro do caminho, mas no chão, um metro adiante do próximo passo.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/9350d32b722bfe99be97f0cf6c5ff92da91b1b3a48591072bbc34bfb2877bce8?w=1376&h=768&pmaid=651489056" alt="Um velho de jaqueta verde acolchoada e gorro de tricô caminha sozinho pela Grande Muralha escura, uma das mãos roçando os tijolos, os olhos no chão à frente.">
+    <figcaption>O velho avança sozinho pela escuridão, os nós dos dedos lendo os tijolos familiares enquanto seus olhos acompanham apenas o chão à frente.</figcaption>
+  </figure>
+
+  <p>Ele já sabia que a pedra estava ali.</p>
+
+  <p>Diminuiu o passo ao chegar à borda do círculo de tijolos e ficou olhando para ela com uma expressão que GoldenPaw não conseguia nomear daquela distância &mdash; algo entre pesar e uma longa paciência, o rosto de alguém esperando um ônibus que já se atrasara antes e voltaria a se atrasar.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/3b1151b313e4cab999fbceef90f688bbbec825ab1d9eb267c216cc583e952787?w=1376&h=768&pmaid=651489057" alt="Uma pedra escura e lisa brilha em cobre no centro de um círculo de tijolos Ming com inscrições sobre o caminho coberto de geada, a Grande Muralha se estendendo pela noite estrelada ao fundo.">
+    <figcaption>A pedra de brilho acobreado repousa no centro de um círculo de tijolos Ming com inscrições &mdash; paciente e luminosa contra a pedra fria do caminho.</figcaption>
+  </figure>
+
+  <p>GoldenPaw desceu silenciosamente da sombra do parapeito para o caminho, quatro metros atrás dele.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/7564908a412c2e6ff0da0f56f4d7e1b502a7d7dd5dc1af65ec6c633cee815c35?w=1376&h=768&pmaid=651489062" alt="GoldenPaw aterrissa bem agachado no caminho coberto de geada, a capa se abrindo, enquanto o velho permanece de costas em primeiro plano.">
+    <figcaption>GoldenPaw desce da sombra do parapeito para o caminho, aterrissando quatro metros atrás do homem, que não se sobressalta.</figcaption>
+  </figure>
+
+  <p>O homem não se assustou. Falou sem se virar, em mandarim, a voz com a inflexão plana característica do dialeto das montanhas de Huairou. &mdash; Fiquei imaginando se desta vez mandariam alguma coisa mais rápida que um helicóptero.</p>
+
+  <p>&mdash; Alguma coisa &mdash; disse GoldenPaw, na mesma língua.</p>
+
+  <p>O homem então se virou. Olhou para GoldenPaw com a avaliação franca e sem pressa de alguém acostumado a ver coisas incomuns aparecerem naquela muralha à noite, e pareceu chegar a uma conclusão que não o alarmou nem o tranquilizou. Olhou para a pedra que pulsava em cobre. Depois de volta. &mdash; Você não tocou nela.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/c838d4944f6b0c7a86dedba4f725e77c8aee76112be4ac12e50dd43f9e6af831?w=1376&h=768&pmaid=651489059" alt="O velho e GoldenPaw se encaram no caminho iluminado pelo luar, a pedra luminosa entre os dois, uma lua crescente acima.">
+    <figcaption>O velho se vira e avalia GoldenPaw com uma franqueza sem pressa; a pedra pulsa entre eles ao luar.</figcaption>
+  </figure>
+
+  <p>&mdash; Me disseram para não tocar.</p>
+
+  <p>Uma expiração que talvez fosse o começo de uma risada. &mdash; Quem lhe disse isso &mdash; falou o velho &mdash; sabe o bastante para ter cautela e não o bastante para ser útil. &mdash; Ele se agachou à borda do círculo de tijolos com a flexibilidade natural de quem passara a vida subindo montanhas e estudou a superfície da pedra como GoldenPaw havia estudado as marcas dos tijolos Ming &mdash; lendo algo ali, embora a língua em que aquilo estivesse escrito não fosse uma que GoldenPaw reconhecesse. &mdash; Ela não vai machucar você. Não faz nada com a pessoa que a encontra. Ela só... &mdash; Parou, procurando as palavras. &mdash; Ela apenas chama.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/618906576732c40ca393c682b6eb2c70c229f1cc3a276ae258729e6130dd8a60?w=1376&h=768&pmaid=651489058" alt="O velho se agacha ao lado do artefato de brilho acobreado, estudando-o de perto, enquanto GoldenPaw observa de pé atrás dele sob a Via Láctea.">
+    <figcaption>O velho se agacha à borda do círculo de tijolos, estudando a superfície da pedra com a atenção cuidadosa de quem lê uma língua que só ele conhece.</figcaption>
+  </figure>
+
+  <p>A luz de cobre pulsou. Uma vez. Duas. Paciente e lenta como um coração em repouso.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/c1ab005e8c06ea7b043879b4628e857cd89d86c3d420c7f02d5b3b3901c5cee6?w=1376&h=768&pmaid=651489060" alt="Close extremo do olho âmbar de GoldenPaw em primeiro plano, enquanto o velho está um pouco mais ao longe no caminho escuro, olhando para ele.">
+    <figcaption>GoldenPaw observa o velho através da luz de cobre pulsante &mdash; duas batidas de coração, dois silêncios, uma pergunta se formando.</figcaption>
+  </figure>
+
+  <p>&mdash; Chama o quê? &mdash; perguntou GoldenPaw.</p>
+
+  <p>O velho ergueu os olhos para ele, e neles havia a tristeza particular de um homem que esperara por muito tempo que lhe fizessem exatamente aquela pergunta e não tinha certeza alguma de que queria respondê-la agora que o momento finalmente chegara.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/5dd1c5b8bf7166ac4d3fa0ad2313171c2cec8fa0d4cae5aa184dfaf99678ed81?w=1376&h=768&pmaid=651489055" alt="Retrato em close do rosto marcado pelo tempo do velho sob um gorro cinza de tricô, os olhos úmidos, a Grande Muralha e o céu estrelado desfocados ao fundo.">
+    <figcaption>O velho ergue os olhos, e seu rosto carrega a tristeza de um homem que esperou a vida inteira por aquela pergunta e não encontra consolo em sua chegada.</figcaption>
+  </figure>
+
+  <p class="back-to-toc"><a href="#toc">&uarr; Sumário</a></p>
+
+  <header id="chapter-3">
+  <p class="chapter-number">Capítulo Três</p>
+  <h1>O Lugar Sob o Lugar</h1>
+  <p class="chapter-audio">
+    <a href="https://pfst.cf2.poecdn.net/base/audio/141e70ac9f5833ab12cfa64af65f182ca4db3cee88e4bab3ba482fda0282dc4c?pmaid=652278698"
+       target="_blank" rel="noopener noreferrer">
+      Ouvir o áudio do Capítulo 3 (abre em nova aba)
+    </a>
+  </p>
+</header>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/1de1c8065102b8534f2a204b86c7a6cad40aca705784d03b8ff1f85c79e8bde1?w=1376&h=768&pmaid=651789265" alt="GoldenPaw caminha pelas vielas de cascalho cobertas de geada de um pequeno vilarejo nas montanhas à noite, com casas de pedra e um caquizeiro ao fundo.">
+    <figcaption>GoldenPaw percorre as vielas cobertas de geada de Nanjili, o pequeno povoado ao pé do trecho de Jiankou, antes de subir até a muralha.</figcaption>
+  </figure>
+
+  <p>O velho se sentou na pedra fria ao lado do círculo de tijolos como se a pergunta lhe tivesse retirado algo estrutural, alguma escora interna que o mantivera de pé por mais tempo do que era sustentável. Puxou o gorro mais um pouco sobre as orelhas. A luz de cobre percorria seu rosto em pulsações lentas e quentes.</p>
+
+  <p>&mdash; Meu nome é Chen Baolin &mdash; disse. &mdash; Moro em Nanjili &mdash; o pequeno vilarejo ao pé deste trecho &mdash; há sessenta e um anos. Meu pai morou lá antes de mim. E o pai dele antes. &mdash; Fez uma pausa. &mdash; Há três gerações nós observamos esta pedra voltar.</p>
+
+  <p>GoldenPaw se afastou do parapeito e se agachou no caminho, à borda do círculo de tijolos, perto o suficiente agora para sentir o calor tênue que a pedra emitia &mdash; e era calor, percebeu, não apenas luz. Um calor direcionado, deliberado, como o de uma lâmpada apontada para um ponto específico do cômodo. Ele olhou para Chen Baolin. &mdash; Voltar de onde?</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/8710c2ce735548546a7d6a26173ecf5d7aadb6c7c8196341a45529af377b2791?w=1376&h=768&pmaid=651789264" alt="GoldenPaw e o velho se encaram através da pedra luminosa em seu círculo de tijolos sobre o caminho da Grande Muralha à noite.">
+    <figcaption>GoldenPaw e Chen Baolin se encaram pela primeira vez através da pedra que pulsa em cobre, o círculo de tijolos brilhando entre eles no caminho da Grande Muralha.</figcaption>
+  </figure>
+
+  <p>O velho gesticulou vagamente para leste, em direção à crista, àquela direção que, no escuro, não sugeria nada além de mais muralha, mais montanha, mais frio. &mdash; Não temos uma palavra para isso. Meu avô chamava de o lugar sob o lugar. Ele não era um homem poético. Falava literalmente. &mdash; Bateu a bota contra o caminho de pedra. &mdash; Embaixo. Mas não em uma direção para a qual se possa apontar.</p>
+
+  <p>O receptor de GoldenPaw estava silencioso. A Dra. Shen ainda estava ao telefone, ou decidira ouvir.</p>
+
+  <p>&mdash; De quanto em quanto tempo ela volta? &mdash; perguntou ele.</p>
+
+  <p>&mdash; A cada onze anos. Às vezes doze. A última vez foi em 2012. Antes disso, 2001. &mdash; Chen Baolin olhou para a pedra com aquela expressão de ônibus atrasado outra vez &mdash; a paciência de um homem que deixara de se surpreender com a imprevisibilidade da linha sem jamais aceitá-la por completo. &mdash; Ela aparece primeiro na Torre da Águia que Voa para o Alto. Sempre lá. Depois ela... migra, acho que é assim que vocês diriam... para oeste ao longo da muralha, um trecho por noite, até chegar ao Nó de Pequim. E então para. E chama.</p>
+
+  <p>&mdash; Por quanto tempo?</p>
+
+  <p>&mdash; Três noites. Se nada responder até a terceira noite, ela volta para baixo. &mdash; Abriu as mãos no colo, palmas para cima &mdash; um gesto que não era bem um dar de ombros nem uma rendição. &mdash; E esperamos onze anos.</p>
+
+  <p>&mdash; E alguma coisa já respondeu?</p>
+
+  <p>O silêncio que se seguiu à pergunta foi o mais longo até então. Um vento atravessou a crista acima deles, arrastando os galhos secos de sumagre contra o dolomito. Muito abaixo da face sul da muralha, no vale sem luz, algo se mexeu na vegetação rasteira &mdash; uma raposa, talvez, ou um dos pequenos cervos que desciam das florestas da montanha Heitou nos meses frios. GoldenPaw ouviu, registrou e não desviou os olhos do rosto de Chen Baolin.</p>
+
+  <p>&mdash; Uma vez &mdash; disse o velho. &mdash; Em 1957. Meu avô tinha vinte e dois anos. &mdash; Parou. A luz de cobre pulsava entre eles, paciente como a maré. &mdash; Ele nunca contou a ninguém o que respondeu. Disse ao meu pai apenas que tinha sido errado. Que a coisa que veio não era o que a pedra estava chamando. &mdash; Sua voz permaneceu plana o tempo todo, o dialeto das montanhas de Huairou alisando as inflexões como a altitude eliminava o esforço desnecessário, mas suas mãos haviam se fechado no colo. &mdash; Houve... consequências. Para a muralha. Para o vilarejo. Levou muito tempo para corrigir.</p>
+
+  <p>GoldenPaw olhou para a pedra. O calor que vinha dela era constante e, ele precisava admitir, não era desagradável &mdash; como a lembrança de sol sobre uma superfície que o absorvera o dia inteiro e só agora o devolvia. Ele se pegou compreendendo por que alguém, quinhentos anos antes ou na última terça-feira, teria disposto tijolos num círculo ao redor dela. O impulso era menos supersticioso do que parecia. Era o impulso de demarcar uma fronteira. De dizer: aqui está a coisa, e aqui está o espaço que estamos lhe dando, e estamos pedindo que você perceba a diferença.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/e8cfbcb1cc521ee31620028d08fb3ac613426aba3caf90b0561779d41c3d18ba?w=1376&h=768&pmaid=651789263" alt="GoldenPaw se agacha sobre um círculo de tijolos da era Ming com inscrições ao redor da pedra de brilho acobreado, com torres de vigia em ruínas e uma lua crescente ao fundo.">
+    <figcaption>GoldenPaw se agacha sobre os tijolos da era Ming &mdash; marcados com 嘉靖三十六年 &mdash; dispostos em círculo ao redor da pedra luminosa, refletindo sobre o impulso de demarcar uma fronteira.</figcaption>
+  </figure>
+
+  <p>&mdash; Esta é a segunda noite? &mdash; perguntou.</p>
+
+  <p>Chen Baolin assentiu.</p>
+
+  <p>&mdash; Então temos esta noite e mais uma.</p>
+
+  <p>&mdash; Sim.</p>
+
+  <p>O receptor de GoldenPaw estalou. A voz da Dra. Shen voltou, e qualquer que tivesse sido a ligação, ela não melhorara sua habitual economia de palavras. Se alguma coisa mudara, era que a comprimira ainda mais. &mdash; GoldenPaw. O tipo de sinal foi identificado preliminarmente. Corresponde aos registros de um incidente de 1957 no distrito de Huairou, que foram mantidos em sigilo pelas autoridades competentes e só agora me foram parcialmente liberados. Ainda não posso lhe contar tudo. O que posso dizer é que o sinal é um... &mdash; Uma pausa, que, vinda da Dra. Shen, carregava o peso de um parágrafo inteiro. &mdash; Um pedido. O objeto está transmitindo uma frequência específica que tem uma frequência de resposta conhecida... conhecida por certas pessoas. Algo deveria responder.</p>
+
+  <p>&mdash; Eu sei &mdash; disse GoldenPaw.</p>
+
+  <p>Um instante. &mdash; Você falou com alguém.</p>
+
+  <p>&mdash; Chen Baolin. Ele acompanha isso há sessenta anos.</p>
+
+  <p>Outra pausa, mais longa, e ele quase pôde ouvi-la recalculando. &mdash; Pergunte a ele &mdash; disse ela com cuidado &mdash; qual é a frequência de resposta correta.</p>
+
+  <p>GoldenPaw olhou para o velho. Chen Baolin ouvira a voz pelo receptor &mdash; não as palavras, mas a existência de outra pessoa &mdash; e observava GoldenPaw com uma expressão que havia mudado. A paciência ainda estava lá, mas adquirira uma nova textura. Algo como atenção. Algo como o estado de alerta específico de um homem que esperou onze anos numa antessala e acaba de ouvir passos se aproximando da porta pelo outro lado.</p>
+
+  <p>&mdash; A pessoa com quem trabalho quer saber qual é a resposta certa &mdash; disse GoldenPaw. &mdash; O que a pedra está realmente chamando.</p>
+
+  <p>O velho ficou em silêncio por um momento. Então enfiou a mão dentro da jaqueta acolchoada e tirou um objeto pequeno &mdash; um caderno, surrado, a capa reforçada com uma tira de fita isolante, as páginas amaciadas pelo manuseio. Segurou-o sem abrir, sentindo suas bordas com os polegares.</p>
+
+  <p>&mdash; Meu avô escreveu &mdash; disse. &mdash; Depois de 1957. Depois que entendeu o que havia feito de errado. Passou trinta anos escrevendo o que deveria ter sido. &mdash; Estendeu o caderno por cima da luz de cobre, o braço firme, mas GoldenPaw percebeu o esforço deliberado necessário para mantê-lo assim. &mdash; Ele deu isto ao meu pai, e meu pai me deu, e eu o trago aqui para cima a cada onze anos desde 1990, esperando encontrar alguém a quem entregá-lo.</p>
+
+  <p>GoldenPaw olhou para o caderno. Não o pegou de imediato. Em sua experiência &mdash; e sua experiência se estendia por caminhos longos e estranhos que a maioria das pessoas jamais percorrera &mdash;, o peso de um objeto muitas vezes era inversamente proporcional ao seu tamanho. &mdash; Por que não usá-lo você mesmo? &mdash; perguntou. &mdash; Por que não responder você mesmo?</p>
+
+  <p>Chen Baolin quase sorriu. Era a expressão de um homem que se fizera a mesma pergunta muitas vezes, chegando sempre à mesma resposta, e alcançara uma paz possível com ela, sem chegar a nada parecido com contentamento. &mdash; As anotações do meu avô são muito claras nesse ponto. A resposta tem de vir de algo que não seja inteiramente deste lugar. Não inteiramente humano, ele escreveu, embora quisesse dizer algo mais específico do que isso. &mdash; Seus olhos percorreram a pelagem malhada de GoldenPaw, o traje entretecido de ouro, os olhos âmbar que o liam com uma precisão que nenhum rosto humano jamais lhe dirigira. &mdash; Ele não sabia o que isso significaria. Só escreveu o que não poderia ser.</p>
+
+  <p>A luz de cobre pulsou uma vez, muito lentamente, e por um momento seu calor foi forte o bastante para que GoldenPaw o sentisse nos pelos dos antebraços, uma pressão suave e sem fonte, como o primeiro sopro da manhã por uma janela aberta.</p>
+
+  <p>Ele pegou o caderno.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/1ea0d42c3d39839ea87f8b605a275fcf19fe9b786d1bb967797c9bb5ea0dc6d3?w=1376&h=768&pmaid=651789262" alt="Chen Baolin estende um caderno surrado, reforçado com fita, por cima da luz do fogo em direção à pata enluvada de GoldenPaw.">
+    <figcaption>Chen Baolin estende o caderno surrado, reforçado com fita, por cima da luz de cobre; a pata enluvada de GoldenPaw se estende para recebê-lo &mdash; mais leve do que esperava, depois mais pesado.</figcaption>
+  </figure>
+
+  <p>Era mais leve do que ele esperava. Depois, mais pesado. Sentiu a transição entre uma coisa e outra como um fato sobre o objeto, não sobre suas mãos.</p>
+
+  <p>&mdash; Preciso ler isto com cuidado antes de pensarmos em agir &mdash; disse. &mdash; E minha colega em Pequim precisa ver o que consegue cruzar com os registros de 1957. &mdash; Olhou para Chen Baolin. &mdash; Você fica?</p>
+
+  <p>&mdash; Fiquei todas as vezes desde 1990 &mdash; disse o velho. &mdash; Não vou parar agora só porque finalmente apareceu alguém por quem vale a pena ficar.</p>
+
+  <p>Ele enfiou a mão no bolso da frente da jaqueta de trabalho e tirou uma garrafa térmica &mdash; de alumínio amassado, do tipo vendido em lojas de ferragens de qualquer cidadezinha do norte da China &mdash; e serviu duas porções de chá, uma na tampa da garrafa e outra no copinho encaixado sob ela. Estendeu uma delas. GoldenPaw aceitou, o que exigiu um pequeno ajuste na maneira de segurá-la por causa das manoplas do traje, e o chá era quente, escuro e tinha gosto de grão torrado, aquele tipo de gosto que tinha menos a ver com sabor do que com a certeza confiável do calor.</p>
+
+  <p>Sentaram-se dos dois lados da pedra que pulsava em cobre, no meio da Grande Muralha de Jiankou, enquanto as estrelas continuavam sua lenta rotação e o caderno repousava aberto sobre os joelhos de GoldenPaw, e ele começou a ler.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/ffc3a8006a396707fdbc4e9f142cff40d0f090bd4db1a37e8ce6b07e6f3f108c?w=1376&h=768&pmaid=651789258" alt="GoldenPaw está sentado de pernas cruzadas lendo o caderno aberto à luz da pedra, enquanto o velho serve chá de uma garrafa térmica de alumínio, a Grande Muralha serpenteando pela escuridão atrás deles.">
+    <figcaption>GoldenPaw lê a caligrafia miúda do avô à luz da pedra enquanto Chen Baolin serve chá quente de sua garrafa térmica de alumínio amassado, a muralha se curvando para a escuridão atrás deles.</figcaption>
+  </figure>
+
+  <p>O avô de Chen Baolin escrevera com uma letra miúda e meticulosa, os caracteres formados com o cuidado deliberado de alguém que aprendera a escrever tarde na vida e nunca deixara de se maravilhar um pouco com o fato de ser capaz de fazê-lo. As primeiras vinte páginas eram de observações &mdash; datas, horários, descrições da aparência e do comportamento da pedra ao longo do que aparentemente eram quatro ciclos completos que ele testemunhara pessoalmente, começando em 1923 e terminando em 1957. GoldenPaw leu depressa, catalogando. A pedra era consistente. O círculo de tijolos, leu com interesse, não fora uma inovação do velho &mdash; já estava lá quando o avô de Chen Baolin o encontrara pela primeira vez, em 1923, e os tijolos então eram diferentes, mais antigos, anteriores à dinastia Ming, suas marcas gastas a ponto de quase não poderem ser lidas. Alguém antes dele fizera o círculo. Sempre houvera alguém fazendo aquilo.</p>
+
+  <p>Então veio a anotação de 1957, e a caligrafia mudou &mdash; não os caracteres em si, mas a pressão por trás deles, como se a caneta tivesse sido apertada com mais força. GoldenPaw leu devagar.</p>
+
+  <blockquote style="margin: 1.5em 2em; font-style: italic; color: #444;">
+    <p>A coisa que veio era feita do próprio anseio da muralha. Foi assim que entendi depois. Ela interpretara mal o chamado &mdash; ou não exatamente mal, mas respondera apenas à parte do chamado que falava nas frequências que já conhecia. A muralha é antiga e acumulou anseios como um rio acumula sedimentos. Dei a ela algo a que se agarrar e ela se agarrou com força demais. As três torres da face norte &mdash; aquelas que minha família chamava de As Três Sentinelas &mdash;, suas fundações racharam para dentro, não para fora. Como se algo em seu interior tivesse tentado sair.</p>
+  </blockquote>
+
+  <p>GoldenPaw parou naquele parágrafo. Leu de novo. Então tocou o receptor.</p>
+
+  <p>&mdash; Dra. Shen. O incidente de 1957. Houve relatos de falhas estruturais? Especificamente nas torres de vigia da face norte &mdash; três delas.</p>
+
+  <p>A resposta levou quarenta segundos. &mdash; Sim. Atribuídas na época a danos por congelamento e falta de manutenção. Três torres na encosta norte, fundações comprometidas para dentro. A investigação foi encerrada em seis semanas. &mdash; Uma pausa. &mdash; O relatório mantido em sigilo era da segunda investigação. A que levou onze meses e nunca atribuiu a causa ao gelo.</p>
+
+  <p>GoldenPaw ergueu os olhos do caderno. O céu a leste ainda era de um negro absoluto, mas sua qualidade havia mudado &mdash; ainda não estava mais claro, mas parecia menos comprometido com a escuridão, como se as horas mais fundas da noite tivessem iniciado sua lenta retirada. Uma hora, talvez noventa minutos, até a primeira luz.</p>
+
+  <p>Chen Baolin o observava com a imobilidade de quem lera as mesmas páginas muitas vezes e agora via outra pessoa chegar aos mesmos pontos pela primeira vez, o que era uma forma própria de companhia.</p>
+
+  <p>&mdash; A terceira noite é amanhã &mdash; disse GoldenPaw.</p>
+
+  <p>&mdash; Sim.</p>
+
+  <p>&mdash; E, se a resposta certa não vier até lá, mais onze anos.</p>
+
+  <p>&mdash; Minha neta tem oito anos &mdash; disse Chen Baolin. &mdash; Ela me perguntou por que subo sozinho até a muralha todo outono. &mdash; Girou o copo de chá entre as mãos. &mdash; Ainda não respondi. Preferia não passar isto adiante para ela.</p>
+
+  <p>A luz de cobre pulsava entre eles. O caderno estava aberto numa página perto do meio, onde o avô de Chen Baolin parara de observar e começara, com a letra cuidadosa de um homem que cometera um erro grave e estava decidido a fazer com que ele servisse para alguma coisa, a teorizar. GoldenPaw olhou para a página. Os caracteres eram mais densos ali, as margens preenchidas por pequenos diagramas &mdash; não arquitetônicos, não matemáticos em nenhum sentido convencional, mas algo entre os dois. Algo que descrevia uma forma de escutar.</p>
+
+  <p>Pensou no que o velho dissera. <em>Não inteiramente deste lugar. Não inteiramente humano.</em></p>
+
+  <p>Olhou para o trecho da muralha chamado Escada para o Céu, não muito longe &mdash; degraus quase verticais subindo uma crista tão íngreme que o nome era menos metáfora do que descrição &mdash;, e depois para a Torre da Águia que Voa para o Alto, escura e arruinada contra as estrelas, a torre assim chamada porque a montanha sob ela obrigava até as águias a ganhar altitude. Ele viera de baixo naquela noite, de Xizhazi, como vinham os caminhantes, como vinha Chen Baolin. Mas a pedra migrara para oeste a partir daquela torre, um trecho por noite, seguindo a linha da muralha como um pensamento segue o sulco que abriu para si ao longo de muitos anos.</p>
+
+  <p>Algo deveria vir da outra direção.</p>
+
+  <p>Ele leu mais uma página.</p>
+
+  <p>E então, de algum lugar na crista a leste &mdash; não do caminho, não da trilha, mas da encosta aberta acima da face norte da muralha &mdash;, veio um som que não era de passos nem de vento nem de qualquer animal para o qual GoldenPaw tivesse um registro. Era grave e contínuo, e tinha uma estrutura, um padrão repetitivo que suas orelhas começaram involuntariamente a decifrar antes que sua mente decidisse fazê-lo.</p>
+
+  <p>Chen Baolin ficara completamente imóvel.</p>
+
+  <p>A luz de cobre, pela primeira vez desde que GoldenPaw a observava, mudou de ritmo. A pulsação lenta e paciente acelerou &mdash; não até a urgência, mas até o compasso de um coração que estava em repouso e ouviu algo que o desperta.</p>
+
+  <p>GoldenPaw fechou o caderno. Pousou o chá no caminho de pedra com o cuidado de quem deixa algo a que pretende voltar. Levantou-se de sua posição agachada naquele movimento único e fluido que era, junto com a imobilidade, a outra coisa que a maioria das pessoas nunca compreendia muito bem a seu respeito &mdash; não a velocidade, pela qual sempre esperavam, mas a qualidade da transição. A maneira como simplesmente não havia estágio intermediário entre repouso e movimento.</p>
+
+  <p>&mdash; Fique aqui &mdash; disse a Chen Baolin. &mdash; E fique dentro do círculo.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/450b468f9e80856e3e30d4261e115bed3cfe71a3f370a685877c7330c4282e69?w=1376&h=768&pmaid=651789259" alt="GoldenPaw se ergue em pleno estado de alerta no caminho, as orelhas voltadas para a crista a leste, enquanto o velho observa ao lado da pedra luminosa.">
+    <figcaption>GoldenPaw se ergue num único movimento fluido, atento ao som vindo da crista a leste; Chen Baolin observa da beirada da muralha enquanto GoldenPaw lhe diz para ficar dentro do círculo.</figcaption>
+  </figure>
+
+  <p>O velho olhou para ele. A luz de cobre se movia em seus olhos. &mdash; Você vai na direção daquilo.</p>
+
+  <p>&mdash; Quero ver antes de ser visto &mdash; disse GoldenPaw. &mdash; Descobri que essa costuma ser a melhor ordem.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/61b2ad42f0360de4fd5c140bb4fa20f86f34ba970433b1701332e8706285ff6a?w=1376&h=768&pmaid=651789260" alt="GoldenPaw salta por cima do parapeito para a noite, a capa estendida atrás dele, o velho e a pedra luminosa pequenos no caminho abaixo.">
+    <figcaption>GoldenPaw se lança para o norte por cima do parapeito num único salto, a capa estendida, Chen Baolin e a pedra luminosa pequenos lá embaixo &mdash; a transição entre repouso e movimento sem estágio intermediário.</figcaption>
+  </figure>
+
+  <p>Ele foi para o norte, por cima do parapeito, para a escuridão da face externa da montanha, movendo-se baixo e rápido junto ao dolomito, o caderno guardado dentro do traje contra o peito, aquecido por seu próprio calor e pelo calor que se dissipava da coisa no caminho abaixo, e o som vindo da crista a leste continuou sua pulsação grave e estruturada, sem se aproximar nem recuar, paciente da maneira como só coisas muito antigas ou muito certas são pacientes &mdash; como a própria muralha era paciente, como a montanha sob ela era paciente, contando o tempo numa moeda de valor alto demais para que qualquer ser vivo pudesse gastá-la numa única vida.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/b6f124b61873577f68e677692c3f8b83bf93f0b261eef0155e8de33e62e0348d?w=1376&h=768&pmaid=651789261" alt="GoldenPaw avança baixo e rápido por uma encosta rochosa entre bétulas à noite, a capa ondulando, rastreando um som na crista acima.">
+    <figcaption>GoldenPaw se move baixo e rápido pela face externa da montanha, seguindo a pulsação grave e estruturada da crista a leste pelas encostas de dolomito entre bétulas, acima da face norte da muralha.</figcaption>
+  </figure>
+
+  <p class="back-to-toc"><a href="#toc">&uarr; Sumário</a></p>
+
+  <header id="chapter-4">
+  <p class="chapter-number">Capítulo Quatro</p>
+  <h1>Duas Coisas ao Mesmo Tempo</h1>
+  <p class="chapter-audio">
+    <a href="https://pfst.cf2.poecdn.net/base/audio/bd7dddb29d6338826a80d69dc728373f98a08212cfa297bb1a5df06b10171bf0?pmaid=652282414"
+       target="_blank" rel="noopener noreferrer">
+      Ouvir o áudio do Capítulo 4 (abre em nova aba)
+    </a>
+  </p>
+</header>
+
+  <p>O som não tinha direção no sentido convencional &mdash; não aumentava quando ele avançava em sua direção, não diminuía quando ele parava ou mudava de rumo. Simplesmente existia com a mesma intensidade em qualquer ponto da face externa da montanha onde ele se colocasse, o que lhe dizia algo que registrou sem ainda interpretar: a fonte não era um ponto. Estava distribuída pela crista como o tempo atmosférico, como o frio, presente em todas as superfícies ao mesmo tempo.</p>
+
+  <p>Ele subiu, mantendo a face norte da muralha à sua direita, usando as saliências expostas de dolomito como cobertura. As bétulas daquela encosta eram mais antigas do que as que ficavam abaixo do vilarejo, a casca profundamente sulcada, as copas se estendendo em ângulos baixos para longe do vento predominante. Passou entre elas sem perturbar um galho sequer.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/efe264e0b4feb53e716a1f714c1cab31283659ed253a23f741a82e482d823035?w=1376&h=768&pmaid=652029487" alt="GoldenPaw sobe entre bétulas antigas de casca sulcada ao lado da face norte da muralha à noite, a capa arrastando atrás dele, uma lua crescente ao fundo.">
+    <figcaption>GoldenPaw sobe ao longo da face norte da muralha, passando entre as bétulas antigas sem perturbar um galho sequer.</figcaption>
+  </figure>
+
+  <p>O som foi se definindo conforme ele subia. Não era, compreendeu agora, um tom único. Era um acorde &mdash; duas frequências entrelaçadas, uma tão grave que ele a sentia mais no peito do que a ouvia com as orelhas, outra no limite superior do que a maioria dos humanos conseguia detectar. Ele ouvia as duas. Aprendera a não considerar isso incomum. Era simplesmente a faixa que seu corpo recebera, e seu corpo havia muito deixara de se admirar com ela.</p>
+
+  <p>O que o impressionava era o intervalo entre as duas frequências. Não era uma relação harmônica. Era o intervalo entre uma pergunta e uma resposta parcial &mdash; alguém completando a primeira frase de uma sentença e deixando a segunda sem resolução, repetidas vezes, com a paciência de algo que não vivenciava a espera como perda.</p>
+
+  <p>Ele parou atrás de uma saliência de calcário, seis metros acima das ameias da muralha, e olhou para leste ao longo da crista.</p>
+
+  <p>Havia uma figura na montanha.</p>
+
+  <p>Estava na linha da crista, recortada contra o céu, e a primeira coisa que GoldenPaw registrou foi que ela não tinha assinatura térmica que seus olhos pudessem distinguir &mdash; nenhum calor a diferenciava da pedra sob seus pés ou do ar ao redor. Não era fria, exatamente. Tinha a mesma temperatura de todo o resto, o que era diferente de ser fria e consideravelmente mais estranho. Seu formato sugeria altura sem insistir nela, como uma sombra sugere o objeto que a projeta sem se comprometer com suas dimensões. A luz ao redor não era a luz de cobre da pedra lá embaixo, mas algo mais antigo &mdash; não uma cor para a qual ele tivesse nome, menos vista do que reconhecida, como se reconhece a presença de um animal grande no mato fechado antes de enxergá-lo.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/10618b546d43e43921d3ddeed054a4582bd3504a0a73217c4e17959c717b2c93?w=1376&h=768&pmaid=652029488" alt="GoldenPaw se agacha atrás de uma saliência de pedra clara em primeiro plano, observando uma figura escura e sem calor na crista distante, onde a muralha sobe em direção à Via Láctea.">
+    <figcaption>GoldenPaw mantém a posição, observando a figura distante e sem calor, imóvel na crista acima da muralha.</figcaption>
+  </figure>
+
+  <p>GoldenPaw não se moveu.</p>
+
+  <p>O som da figura continuava sua frase entrelaçada e incompleta. Esperando a segunda metade. A muralha abaixo respondia &mdash; não apenas com a pulsação acelerada da pedra, mas com algo na própria estrutura da muralha, uma vibração que ele sentia pelo dolomito sob as palmas e que, percebeu, estava ali desde que tocara os tijolos Ming no começo da noite. Naquele momento, registrara aquilo como o frio da pedra. Não era o frio da pedra.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/6f78c9dc9b507614a352a87aa6841781968c72636504d0bb9766a345bbe14449?w=1376&h=768&pmaid=652029490" alt="GoldenPaw se agacha rente ao caminho com uma mão enluvada espalmada contra a pedra, a cabeça baixa em concentração sob as estrelas.">
+    <figcaption>GoldenPaw se agacha sobre a pedra Ming, finalmente reconhecendo o que de fato é a vibração que percorre o dolomito sob suas palmas.</figcaption>
+  </figure>
+
+  <p>Ele tocou o receptor, muito devagar, mantendo o corpo absolutamente imóvel. &mdash; Dra. Shen &mdash; disse, pouco acima de um sopro. &mdash; Estou na face norte, sessenta metros a leste da posição da pedra. Há alguma coisa na crista. Preciso que você saiba disso antes de eu tomar uma decisão.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/bcf807afd35cdb88169b3b76278ccb3452364c5b86269aee489a228773efbb44?w=1376&h=768&pmaid=652029491" alt="Close extremo do rosto de GoldenPaw, os dedos enluvados tocando o receptor, os olhos âmbar firmes e concentrados contra a noite escura da montanha.">
+    <figcaption>GoldenPaw toca o receptor &mdash; corpo imóvel, voz pouco acima de um sopro &mdash; para informar à Dra. Shen sobre a figura na crista.</figcaption>
+  </figure>
+
+  <p>A resposta veio num murmúrio, como se ela também tivesse intuído a necessidade de silêncio através das centenas de quilômetros que os separavam. &mdash; Entendido. Os registros liberados... &mdash; Uma pausa. &mdash; GoldenPaw, os registros de 1957 descrevem um respondente. Não o que veio, mas o que deveria ter vindo. As anotações do avô... o caderno menciona um som?</p>
+
+  <p>Ele levou a mão ao peito, onde o caderno se apoiava contra seu corpo sob o traje.</p>
+
+  <p>&mdash; Ainda não &mdash; disse. &mdash; Não terminei de ler.</p>
+
+  <p>&mdash; Há uma passagem no relatório sigiloso que descreve o respondente correto como algo capaz de ouvir o chamado da pedra nas duas frequências simultaneamente. A maioria das pessoas só percebe uma. O respondente precisa sustentar as duas &mdash; não escolher entre elas, sustentar ambas &mdash; e responder no intervalo entre elas. &mdash; Uma pausa que carregava o peso de uma conclusão à qual ela não se sentia confortável em chegar depressa. &mdash; O avô escreveu a mesma coisa trinta anos depois do incidente. Usou outras palavras. Disse: <em>precisa ser o tipo de ser que sabe que é duas coisas ao mesmo tempo e não se incomoda com isso.</em></p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/e285b7d485695fbb8030fc2ff757fccda41ba73b42235cf2e10b186a9e593ff7?w=1376&h=768&pmaid=652029485" alt="Na muralha sob as estrelas, o velho se ajoelha do outro lado do círculo de tijolos diante de GoldenPaw, entregando um tijolo com inscrições às suas patas estendidas, a muralha serpenteando pelas montanhas ao fundo.">
+    <figcaption>Retrospectiva: o avô entrega tijolos Ming com inscrições a GoldenPaw na muralha &mdash; a origem do caderno e da tarefa que ele registra.</figcaption>
+  </figure>
+
+  <p>A figura na crista não havia se movido. O som continuava sua frase incompleta, sem urgência e sem diminuir, paciente como a sedimentação.</p>
+
+  <p>GoldenPaw olhou para ela através da encosta aberta e sentiu, com a parte de si que aprendera a confiar em movimentos involuntários, sua cauda descrever um arco &mdash; devagar &mdash; no ar frio.</p>
+
+  <p>Ele compreendeu.</p>
+
+  <p>Não estava ali para observar a coisa na crista. Não estava ali para proteger a muralha dela, nem para impedi-la de responder ao chamado da pedra, nem para avaliar se representava uma ameaça ao vilarejo abaixo. Vinha fazendo esse cálculo desde que chegara à montanha, passando as variáveis pela arquitetura familiar da intervenção, e o cálculo estava errado. Ele tentava resolver o problema errado.</p>
+
+  <p>A pedra não estava chamando <em>pela</em> figura na crista.</p>
+
+  <p>A pedra chamava por um respondente. A figura na crista <em>era</em> a segunda frequência do chamado &mdash; não a resposta, mas a outra metade da pergunta, a frase suspensa que esperava, de uma forma ou de outra, desde antes de a muralha existir ali. Ela não estava emitindo um som. Ele vinha ouvindo a transmissão da própria pedra de maneira diferente agora que as duas frequências estavam ao alcance uma da outra, o sinal subitamente se separando em seus componentes como a luz se separa através de um prisma.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/61b507de9735dd8d905ed2dd6691747a1e9922c4c1523e7cd46642a17b9d667e?w=1376&h=768&pmaid=652029492" alt="Vista de perto da pedra de brilho acobreado no centro de seu círculo de tijolos com inscrições sobre o caminho coberto de geada, com pegadas marcadas na geada ao redor.">
+    <figcaption>A disposição da pedra na muralha: tijolos com inscrições formando um anel ao redor do centro luminoso de cobre, seu chamado de duas frequências transmitido pela crista o tempo todo.</figcaption>
+  </figure>
+
+  <p>Ele tirou o caderno de dentro do traje e o abriu sobre o joelho no escuro, encontrando a página pela memória da textura. Não precisava lê-la de novo. Já a lera o suficiente.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/a00aa314da6f4460867c47913555d49077c55bf82244b8ab3301fcb80f11f418?w=1376&h=768&pmaid=652029486" alt="GoldenPaw está sentado na pedra fria lendo o caderno aberto, as páginas densas de caracteres manuscritos, iluminadas pelo brilho quente da pedra ao lado.">
+    <figcaption>GoldenPaw abre o caderno do avô à luz do fogo sobre a pedra fria, encontrando a página pela textura sem precisar enxergá-la.</figcaption>
+  </figure>
+
+  <p><em>Não inteiramente deste lugar. Não inteiramente humano. O tipo de ser que sabe que é duas coisas ao mesmo tempo e não se incomoda com isso.</em></p>
+
+  <p>Ele olhou para a muralha abaixo, onde a luz de cobre pulsava em seu ritmo acelerado, e para a figura na crista, e para a distância entre as duas, e sentiu o peso do caderno mudar em suas mãos &mdash; aquela mesma transição, mais leve e depois mais pesado, um fato sobre o objeto e não sobre ele.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/fa731511a60e40641ab3e51e53082513914ed07cc737b75447c69a373adeccff?w=1376&h=768&pmaid=652029489" alt="GoldenPaw está de costas para quem observa, diante da pedra luminosa em seu círculo de tijolos, a capa imóvel, a figura escura recortada ao longe na muralha contra a Via Láctea.">
+    <figcaption>GoldenPaw está diante da pedra de cobre, a figura recortada ao longe na muralha &mdash; sustentando as duas verdades ao mesmo tempo, o peso do caderno mudando em suas mãos.</figcaption>
+  </figure>
+
+  <p class="back-to-toc"><a href="#toc">&uarr; Sumário</a></p>
+
+  <header id="chapter-5">
+  <p class="chapter-number">Capítulo Cinco</p>
+  <h1>O Tipo Certo de Ser</h1>
+  <p class="chapter-audio">
+    <a href="https://pfst.cf2.poecdn.net/base/audio/9c77864ee9bd16d62af57b84bd3b5f2ec012f2259729200f14f175c8f47edcaa?pmaid=652284751"
+       target="_blank" rel="noopener noreferrer">
+      Ouvir o áudio do Capítulo 5 (abre em nova aba)
+    </a>
+  </p>
+</header>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/dc35d59c633098eddb2d08c2bf7239c55205d7288e87a73060c54789d2e1347e?w=1376&h=768&pmaid=652089142" alt="Um homem de jaqueta verde acolchoada e gorro cinza de tricô caminha por uma trilha estreita antes do amanhecer, entre álamos prateados, carregando um tijolo, com a muralha de Jiankou visível na crista acima.">
+    <figcaption>Chen Baolin sobe pela trilha estreita antes do amanhecer, entre álamos prateados, em direção à muralha de Jiankou &mdash; a chegada solitária de um homem que já honrou esse compromisso antes.</figcaption>
+  </figure>
+
+  <p>Ele guardou o caderno de volta dentro do traje.</p>
+
+  <p>Então se levantou de trás da saliência de calcário e desceu a encosta em direção à muralha, a descoberto, sem proteção, como se caminha em direção a algo quando se esconder deixou de ser a questão relevante.</p>
+
+  <p>Passou por cima do parapeito e desceu ao caminho. Chen Baolin estava onde ele o deixara, sentado ao lado do círculo de tijolos, segurando o copo da garrafa térmica com as duas mãos, os olhos fixos na meia distância que era GoldenPaw voltando pela pedra quebrada. A luz de cobre se movia mais depressa agora &mdash; não freneticamente, mas no compasso de um coração que ficara parado por muito tempo e estava se lembrando de para que fora feito.</p>
+
+  <p>&mdash; Você sabe &mdash; disse o velho. Não era uma pergunta.</p>
+
+  <p>&mdash; Acho que sim &mdash; disse GoldenPaw. &mdash; Seu avô escreveu que não poderia ser inteiramente humano. &mdash; Parou à borda do círculo de tijolos e olhou para o outro lado. &mdash; Também escreveu que não poderia ser inteiramente deste lugar. Estava descrevendo a mesma coisa de duas maneiras.</p>
+
+  <p>Chen Baolin ficou em silêncio, girando o copo entre as mãos.</p>
+
+  <p>&mdash; Ele queria dizer algo que vive em dois registros ao mesmo tempo &mdash; disse GoldenPaw. &mdash; Algo que não precisa escolher. &mdash; Olhou para a pedra, para sua pulsação acelerada, para o calor que agora emitia com força suficiente para ser visível como a mais tênue distorção no ar frio acima dela &mdash; não exatamente uma ondulação de calor, mas algo como o equivalente visual de uma nota sustentada. &mdash; É isso que eu sou desde que me lembro. O difícil é que passei muito tempo tratando isso como um problema a resolver, em vez de uma capacidade a usar.</p>
+
+  <p>Seu receptor estava em silêncio havia vários minutos. A Dra. Shen, compreendeu ele, chegara à mesma conclusão e tivera o bom senso de deixá-lo chegar a ela por conta própria.</p>
+
+  <p>Ele entrou no círculo de tijolos.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/d719861f93a654c4542fd25235197a4063bd3f87c55df52da2c276850aef03cc?w=1376&h=768&pmaid=652089143" alt="GoldenPaw entra no círculo de tijolos com inscrições sobre o caminho sob as estrelas, a luz de cobre se erguendo ao redor dele, enquanto o velho de jaqueta verde observa da beirada da muralha.">
+    <figcaption>GoldenPaw entra no círculo de tijolos; a luz de cobre sobe ao redor dele e o velho observa da borda enquanto a pulsação da pedra começa a se sincronizar.</figcaption>
+  </figure>
+
+  <p>O calor o envolveu por completo &mdash; não desconfortável, não esmagador, mas total, como a imersão é total, como se deixa de sentir a fronteira entre o próprio corpo e a água depois que se deixa de ficar à beira dela. A pulsação da pedra já não era algo que ele observava de fora. Podia senti-la no mesmo lugar em que sentia o próprio coração, como se os dois ritmos ocupassem o mesmo espaço em seu peito e negociassem, em silêncio, o compasso.</p>
+
+  <p>Ele se agachou sobre a pedra e apoiou as duas palmas espalmadas nela.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/1bcdf497459a1d8768eaef3b551ca8392047f57e14adb8f26421036f0b757471?w=1376&h=768&pmaid=652089138" alt="GoldenPaw se agacha sobre a pedra luminosa com as duas palmas enluvadas pressionadas contra ela, os olhos fechados, cercado por tijolos Ming com inscrições sob o céu enluarado.">
+    <figcaption>Com as duas palmas espalmadas contra a pedra, GoldenPaw se agacha sobre os tijolos Ming com inscrições enquanto as duas frequências se separam e enchem seu peito &mdash; nenhum protocolo, nenhum treinamento, apenas presença.</figcaption>
+  </figure>
+
+  <p>O frio de antes havia desaparecido. O que subia agora por suas palmas não era calor nem frio, mas algo que não tinha temperatura alguma &mdash; uma espécie de atenção estrutural, uma qualidade de ser notado que ele já sentira vinda de seres vivos, mas nunca de um objeto. As duas frequências que a pedra transmitia se separaram por completo em seu peito, a grave se acomodando no esterno e a aguda encontrando o registro específico que suas orelhas haviam sido feitas para ouvir, e entre elas estava o intervalo &mdash; a lacuna, a frase suspensa, a pergunta esperando sua segunda metade.</p>
+
+  <p>Ele não tinha treinamento para aquilo. Nenhum protocolo. A Dra. Shen não tinha uma frequência para lhe transmitir, nenhum procedimento do relatório sigiloso de 1957. O avô de Chen Baolin passara trinta anos escrevendo o que deveria ter sido, e a conclusão a que chegara, com a letra cuidadosa de um homem escrevendo no fim da vida às margens do próprio erro, era simplesmente: <em>seja ambos, e não os reduza a um só.</em></p>
+
+  <p>GoldenPaw soltou o ar.</p>
+
+  <p>Deixou a frequência grave permanecer grave. Deixou a frequência aguda permanecer aguda. Não tentou encontrar o meio entre elas, não tentou calcular uma média que as transformasse em algo mais manejável, mais legível ou mais parecido com uma coisa só do que com duas. Sustentou-as como sustentava a própria natureza &mdash; a velocidade animal e a imobilidade ponderada, o direito de nascença e a escolha &mdash;, sem fazer de nenhuma delas algo errado por existir ao lado da outra.</p>
+
+  <p>O intervalo entre as frequências se preencheu.</p>
+
+  <p>Não com som. Não com luz. Com algo que não tinha equivalente sensorial que ele soubesse nomear, apenas uma qualidade de completude, como uma fechadura parece diferente quando a chave termina de girar &mdash; não dramático, não ruidoso, simplesmente <em>concluído</em>, um fato que estivera suspenso se tornando um fato resolvido.</p>
+
+  <p>A luz de cobre se apagou.</p>
+
+  <p>Não extinta. <em>Satisfeita</em> &mdash; havia uma diferença, e ele a sentiu com clareza. A pedra sob suas palmas ainda estava quente, mas o calor agora era o calor comum de algo que vinha retendo energia e a liberava suavemente, como a pedra aquecida pelo sol libera calor no ar do entardecer, devagar, sem urgência, gastando o que recebeu.</p>
+
+  <p>Ele ergueu as mãos e se levantou.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/493a6b9faaa79b13d736c12e74768368f4ef87011dab23ecfe0a0af5fecad587?w=1376&h=768&pmaid=652089144" alt="GoldenPaw está de pé ao lado do círculo de pedra agora escuro sobre o caminho salpicado de neve, enquanto Chen Baolin está sentado por perto com sua garrafa térmica, a muralha serpenteando pelas montanhas atrás deles.">
+    <figcaption>GoldenPaw se ergue e fica de pé; a luz de cobre se foi e Chen Baolin permanece sentado ao lado do círculo agora silencioso, a garrafa térmica na mão, observando a resolução se acomodar na pedra.</figcaption>
+  </figure>
+
+  <p>O silêncio que voltou à montanha era do outro tipo &mdash; o tipo com textura, com o roçar de uma ave noturna em algum lugar abaixo da face sul da muralha, com a percussão distante da água sobre o calcário, com o ranger de um galho nu de bétula respondendo ao vento da alta crista. Ele não percebera o quanto o silêncio carregado, de respiração presa, o havia substituído até que retornasse, e seu retorno foi como o retorno de um cheiro cuja ausência ele não havia notado.</p>
+
+  <p>Olhou para leste ao longo da crista.</p>
+
+  <p>A figura havia desaparecido. Não fugido &mdash; não havia sensação de recuo, nenhuma perturbação no ar que sugerisse partida. Simplesmente deixara de estar presente como uma pergunta deixa de estar presente depois de respondida, não destruída, mas dissolvida no fato de sua própria resolução.</p>
+
+  <p>Chen Baolin havia se levantado. Estava logo fora do círculo de tijolos, a garrafa térmica ao lado do corpo, olhando para a pedra. Na nova escuridão &mdash; a pedra agora estava realmente escura, uma pedra comum, cinza de dolomito e banal &mdash;, seu rosto trazia uma expressão para a qual GoldenPaw não tinha nome e que suspeitava não ter aparecido no rosto de ninguém com frequência suficiente para precisar de um. Era o rosto de um homem pousando um peso que carregara por tanto tempo que já não tinha certeza de saber ficar de pé sem ele, e descobrindo que sua coluna se lembrava sozinha.</p>
+
+  <p>&mdash; Acabou? &mdash; perguntou o velho.</p>
+
+  <p>&mdash; Acho que sim.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/e1bf9466a0cabc2b78d55a90a0ecebeaa6adb8f0e758d09cec98a751d36198b8?w=1376&h=768&pmaid=652089140" alt="GoldenPaw e o velho se encaram através do círculo que perde o brilho no caminho coberto de geada, o homem segurando sua garrafa térmica com as duas mãos.">
+    <figcaption>Os dois se encaram através do círculo que perde o brilho &mdash; o velho e o tipo certo de ser &mdash;, e a pergunta sobre o que acabou de acontecer passa entre eles em palavras simples.</figcaption>
+  </figure>
+
+  <p>Chen Baolin baixou os olhos para o círculo de tijolos Ming, marcados com nomes de províncias de quinhentos anos atrás, com assinaturas de famílias, e depois olhou para o céu, que agora mudava &mdash; o leste deixara de se comprometer com a escuridão, as estrelas naquele quadrante recuando um pouco, a primeira sugestão pálida de um horizonte se formando atrás da crista da montanha Heitou.</p>
+
+  <p>&mdash; Eu devia ligar para minha filha &mdash; disse, depois de um tempo. &mdash; Ela se preocupa quando caminho sozinho pela muralha antes do amanhecer. &mdash; Fez uma pausa. &mdash; Tenho ligado para ela depois, a cada onze anos, para dizer que nada aconteceu. Desta vez gostaria de ligar com alguma coisa diferente para contar.</p>
+
+  <p>GoldenPaw se abaixou e pegou o copo de chá onde o deixara no caminho. Estava frio. Bebeu mesmo assim, porque o gosto de grão torrado ainda era a coisa mais confiavelmente quente naquela montanha, e porque dissera que pretendia voltar a ele.</p>
+
+  <p>&mdash; O que vai dizer a ela? &mdash; perguntou.</p>
+
+  <p>Chen Baolin pensou por um longo momento, com o cuidado de um homem para quem a linguagem era uma ferramenta precisa, usada com parcimônia. Olhou para a pedra escura, a pedra comum, no centro de seu círculo de tijolos antigos à primeira luz da manhã. Olhou para GoldenPaw.</p>
+
+  <p>&mdash; Que alguém veio &mdash; disse por fim &mdash; e era o tipo certo de ser.</p>
+
+  <p>Ele se abaixou devagar e pegou um dos oito tijolos da borda do círculo &mdash; não todos, não a pedra, mas um tijolo, segurado com as duas mãos, virado para mostrar a face marcada. Olhou para ele por um momento e então o acomodou debaixo do braço com o cuidado deliberado de um homem levando para casa uma coisa pequena e verdadeira.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/e2b5d83a51e8e7816d708f2ff46c0394940121df470c1638dcfaaf3d1eb0c5fc?w=1376&h=768&pmaid=652089137" alt="Vista de perto de Chen Baolin ajoelhado ao lado do círculo de tijolos, virando um único tijolo Ming com inscrições entre suas mãos marcadas pelo tempo, com GoldenPaw de pé ao fundo sob a Via Láctea.">
+    <figcaption>Chen Baolin vira um único tijolo Ming entre as mãos calejadas, lendo sua marca provincial de quinhentos anos antes de colocá-lo sob o braço para levar para casa.</figcaption>
+  </figure>
+
+  <p>O céu a leste agora estava inequivocamente mais claro. A muralha de Jiankou se estendia nas duas direções ao longo de sua crista impossível, com suas torres arruinadas, seu caminho fraturado e seus sumagres pacientes e destrutivos crescendo em cada abertura, antiga e indiferente aos acontecimentos da noite da maneira como estruturas muito velhas são indiferentes a acontecimentos individuais &mdash; não porque não os registrem, mas porque registram tudo, e aprenderam a carregar tudo sem ênfase.</p>
+
+  <p>GoldenPaw tocou o receptor uma última vez.</p>
+
+  <p>&mdash; Dra. Shen. O sinal se resolveu.</p>
+
+  <p>A voz dela respondeu, e era a mesma de sempre, concisa e econômica, cada sílaba fazendo por merecer seu lugar. Mas em sua borda, tão tênue que poderia ser o ar da montanha atravessando o receptor, havia uma qualidade que ele nunca ouvira nela antes. &mdash; Confirmado &mdash; disse. &mdash; O sinal desapareceu. Não estamos detectando nada naquele trecho. &mdash; Uma pausa. &mdash; Descanse um pouco antes de voltar.</p>
+
+  <p>Ele olhou para o céu, onde as estrelas recuavam do leste com a ausência de pressa digna das coisas que sabiam que voltariam. Olhou para a muralha seguindo para oeste em direção ao Nó de Pequim e para leste em direção à Torre da Águia que Voa para o Alto, sua coroa arruinada mal visível contra o céu que clareava &mdash; a torre assim chamada porque a montanha obrigava até as águias a ganhar altitude.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/2954a4d0b8f924347de900cdb470e0b1979b8ea35a4dac89152ced9dde1d8af6?w=1376&h=768&pmaid=652089141" alt="GoldenPaw está de pé no caminho nevado observando a crista da muralha na luz anterior ao amanhecer, a capa se movendo, enquanto o velho está sentado em silêncio perto do círculo de tijolos frio atrás dele.">
+    <figcaption>GoldenPaw contempla a muralha seguindo para leste e oeste por sua crista impossível &mdash; o círculo luminoso agora frio atrás dele, Chen Baolin em oração num canto &mdash; antes da última chamada à Dra. Shen.</figcaption>
+  </figure>
+
+  <p>Ele viera de baixo, como vinham os caminhantes.</p>
+
+  <p>Respondera de dentro.</p>
+
+  <p>Pensou que o avô de Chen Baolin, que não fora um homem poético e dissera tudo literalmente, teria considerado aquele um desfecho aceitável. Pensou que o avô o teria anotado com sua letra cuidadosa, aprendida tarde, nas margens, na linguagem precisa de um homem que cometera um erro grave e estava decidido a fazer com que ele servisse para alguma coisa, e que o que teria escrito seria simplesmente: <em>o lugar sob o lugar está satisfeito. Tem aquilo que chamou. Não chamará de novo durante a minha vida, nem durante a de meus filhos.</em></p>
+
+  <p>E então teria fechado o caderno, tomado seu chá e descido a montanha à primeira luz para voltar ao vilarejo, como Chen Baolin descia agora &mdash; devagar, com um tijolo Ming debaixo do braço e um copo de chá frio deixado para trás sobre a pedra antiga, e algo ereto nas costas que antes não estava ali.</p>
+
+  <p>GoldenPaw o observou partir até a trilha fazer uma curva e os álamos o acolherem. Então se virou para leste, para a luz que nascia, e correu.</p>
+
+  <figure>
+    <img src="https://pfst.cf2.poecdn.net/base/image/1aeefa843d4112da312eae043bcfb6fd97e939abb94f8e8d58c27995e845c3e6?w=1376&h=768&pmaid=652089139" alt="GoldenPaw corre para leste pela muralha arruinada ao amanhecer, a capa estendida atrás dele, a crista e as torres de vigia recortadas contra a primeira luz no horizonte.">
+    <figcaption>Ele se virou para leste, para a luz que nascia, a capa estendida, e correu &mdash; não para longe da montanha, mas como o ser que a montanha chamara, agora inteiramente entregue e inteiramente livre.</figcaption>
+  </figure>
+
+  <p class="back-to-toc"><a href="#toc">&uarr; Sumário</a></p>
+
+  <footer>
+    <p><em>Fim</em></p>
+    <p><a href="index.html">&larr; Voltar para todas as histórias</a></p>
+  </footer>
+</article>
+</body>
+</html>

@@ -68,6 +68,62 @@
   color: #1a1a1a;
   margin: 0 0 2.5rem 0;
 }
+    .toc {
+      margin: 0 auto 4rem auto;
+      padding: 1.5rem 1rem;
+      max-width: 30rem;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+      scroll-margin-top: 2rem;
+    }
+    .toc-heading {
+      font-size: 0.9em;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #777;
+      margin: 0 0 1em 0;
+    }
+    .toc ol {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .toc li {
+      margin: 0.6em 0;
+    }
+    .toc a {
+      color: #222;
+      text-decoration: none;
+      border-bottom: 1px dotted #999;
+    }
+    .toc a:hover {
+      color: #8a5a2b;
+      border-bottom-color: #8a5a2b;
+    }
+    .toc .toc-chapter-number {
+      font-size: 0.85em;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #999;
+      margin-right: 0.6em;
+    }
+    .back-to-toc {
+      text-align: center;
+      margin: 3rem 0 4rem 0;
+    }
+    .back-to-toc a {
+      font-size: 0.85em;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #999;
+      text-decoration: none;
+      border-bottom: 1px dotted #bbb;
+      padding-bottom: 0.15em;
+    }
+    .back-to-toc a:hover {
+      color: #8a5a2b;
+      border-bottom-color: #8a5a2b;
+    }
     p {
       margin: 0 0 1.2em 0;
     }
@@ -120,6 +176,13 @@
     <h1 class="story-title">Untitled</h1>
     <p class="story-setting">Thyangoche, the Khumbu &mdash; Nepal</p>
   </header>
+
+  <nav class="toc" id="toc" aria-label="Table of contents">
+    <p class="toc-heading">Contents</p>
+    <ol>
+      <li><a href="#chapter-1"><span class="toc-chapter-number">Chapter One</span>Off the Trail</a></li>
+    </ol>
+  </nav>
 
   <main>
     <h2 class="chapter-heading">Chapter One</h2>
@@ -230,6 +293,8 @@
            alt="GoldenPaw crouched low on a rocky ledge at the valley floor, claws extended and cape flowing, facing four silhouetted operatives advancing through a canyon with a burning village behind them.">
       <figcaption>At the valley floor, claws extended and every instinct converging to a single point, GoldenPaw faces the operatives advancing through the canyon &mdash; the burning village at their backs.</figcaption>
     </figure>
+
+    <p class="back-to-toc"><a href="#toc">&uarr; Contents</a></p>
 
   </main>
 

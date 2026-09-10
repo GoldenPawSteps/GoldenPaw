@@ -43,6 +43,13 @@
       padding: 2.5rem 0;
       border-bottom: 3px double #999;
     }
+    .series-label {
+      font-size: 0.8em;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #999;
+      margin: 0 0 0.8em 0;
+    }
     .story-title {
       font-size: 3em;
       font-weight: normal;
@@ -130,6 +137,21 @@
       color: #555;
       margin-top: 0.6em;
     }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #ccc;
+      font-size: 0.85em;
+      color: #999;
+    }
+    footer a {
+      color: #8a5a2b;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -138,8 +160,9 @@
   <a class="back-link" href="index.html">&larr; All Stories</a>
   
   <div class="story-title-block">
+    <p class="series-label">A GoldenPaw Story</p>
     <h1 class="story-title">The Second Frequency</h1>
-    <p class="story-subtitle">A GoldenPaw Story &mdash; Jiankou, the Great Wall</p>
+    <p class="story-subtitle">Jiankou, the Great Wall &mdash; China</p>
   </div>
 
   <nav class="toc" id="toc" aria-label="Table of contents">
@@ -738,6 +761,10 @@
 
   <p class="back-to-toc"><a href="#toc">&uarr; Contents</a></p>
 
+  <footer>
+    <p><em>The End</em></p>
+    <p><a href="index.html">&larr; Back to All Stories</a></p>
+  </footer>
 </article>
 </body>
 </html>

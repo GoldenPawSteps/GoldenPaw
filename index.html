@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Second Frequency &mdash; GoldenPaw at Jiankou</title>
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       font-family: Georgia, "Times New Roman", serif;
       line-height: 1.7;
@@ -19,6 +22,7 @@
       margin-bottom: 3rem;
       padding-bottom: 1.5rem;
       border-bottom: 1px solid #ccc;
+      scroll-margin-top: 2rem;
     }
     .chapter-number {
       font-size: 0.9em;
@@ -52,6 +56,62 @@
       color: #666;
       margin: 0;
     }
+    .toc {
+      margin: 0 auto 4rem auto;
+      padding: 1.5rem 1rem;
+      max-width: 30rem;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+      scroll-margin-top: 2rem;
+    }
+    .toc-heading {
+      font-size: 0.9em;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #777;
+      margin: 0 0 1em 0;
+    }
+    .toc ol {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .toc li {
+      margin: 0.6em 0;
+    }
+    .toc a {
+      color: #222;
+      text-decoration: none;
+      border-bottom: 1px dotted #999;
+    }
+    .toc a:hover {
+      color: #8a5a2b;
+      border-bottom-color: #8a5a2b;
+    }
+    .toc .toc-chapter-number {
+      font-size: 0.85em;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #999;
+      margin-right: 0.6em;
+    }
+    .back-to-toc {
+      text-align: center;
+      margin: 3rem 0 4rem 0;
+    }
+    .back-to-toc a {
+      font-size: 0.85em;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #999;
+      text-decoration: none;
+      border-bottom: 1px dotted #bbb;
+      padding-bottom: 0.15em;
+    }
+    .back-to-toc a:hover {
+      color: #8a5a2b;
+      border-bottom-color: #8a5a2b;
+    }
     p {
       margin: 1.2em 0;
     }
@@ -80,7 +140,18 @@
     <p class="story-subtitle">A GoldenPaw Story &mdash; Jiankou, the Great Wall</p>
   </div>
 
-  <header>
+  <nav class="toc" id="toc" aria-label="Table of contents">
+    <p class="toc-heading">Contents</p>
+    <ol>
+      <li><a href="#chapter-1"><span class="toc-chapter-number">Chapter One</span>The Held Breath</a></li>
+      <li><a href="#chapter-2"><span class="toc-chapter-number">Chapter Two</span>It Only Calls</a></li>
+      <li><a href="#chapter-3"><span class="toc-chapter-number">Chapter Three</span>The Place Below the Place</a></li>
+      <li><a href="#chapter-4"><span class="toc-chapter-number">Chapter Four</span>Two Things at Once</a></li>
+      <li><a href="#chapter-5"><span class="toc-chapter-number">Chapter Five</span>The Right Kind of Thing</a></li>
+    </ol>
+  </nav>
+
+  <header id="chapter-1">
     <p class="chapter-number">Chapter One</p>
     <h1>The Held Breath</h1>
   </header>
@@ -189,7 +260,9 @@
     <figcaption>Pressed against the battlement's inner face, cape pooling on the cold stone, GoldenPaw holds his position &mdash; every muscle coiled, the artifact's copper light warming his hands as footsteps draw nearer from the east.</figcaption>
   </figure>
 
-  <header>
+  <p class="back-to-toc"><a href="#toc">&uarr; Contents</a></p>
+
+  <header id="chapter-2">
   <p class="chapter-number">Chapter Two</p>
   <h1>It Only Calls</h1>
 </header>
@@ -266,7 +339,9 @@
     <figcaption>The old man looks up, and his face holds the sorrow of a man who has waited a lifetime for this question and finds no comfort in its arrival.</figcaption>
   </figure>
 
-    <header>
+  <p class="back-to-toc"><a href="#toc">&uarr; Contents</a></p>
+
+    <header id="chapter-3">
     <p class="chapter-number">Chapter Three</p>
     <h1>The Place Below the Place</h1>
   </header>
@@ -433,7 +508,9 @@
     <figcaption>GoldenPaw moves low and fast across the outer face of the mountain, tracking the low, structured pulse from the eastern ridge through the birch-lined dolomite slopes above the wall's northern face.</figcaption>
   </figure>
 
-    <header>
+  <p class="back-to-toc"><a href="#toc">&uarr; Contents</a></p>
+
+    <header id="chapter-4">
     <p class="chapter-number">Chapter Four</p>
     <h1>Two Things at Once</h1>
   </header>
@@ -524,7 +601,9 @@
     <figcaption>GoldenPaw stands before the copper stone, the figure silhouetted far down the wall &mdash; holding both truths at once, the notebook's weight shifting in his hands.</figcaption>
   </figure>
 
-  <header>
+  <p class="back-to-toc"><a href="#toc">&uarr; Contents</a></p>
+
+  <header id="chapter-5">
     <p class="chapter-number">Chapter Five</p>
     <h1>The Right Kind of Thing</h1>
   </header>
@@ -654,6 +733,9 @@
     <img src="https://pfst.cf2.poecdn.net/base/image/1aeefa843d4112da312eae043bcfb6fd97e939abb94f8e8d58c27995e845c3e6?w=1376&h=768&pmaid=652089139" alt="GoldenPaw runs east along the broken wall at dawn, cape streaming behind him, the ridge and watchtowers silhouetted against the first light on the horizon.">
     <figcaption>He turned east into the rising light, cape streaming, and ran &mdash; not away from the mountain, but as the thing the mountain had called for, now fully spent and fully free.</figcaption>
   </figure>
+
+  <p class="back-to-toc"><a href="#toc">&uarr; Contents</a></p>
+
 </article>
 </body>
 </html>

@@ -17,6 +17,18 @@
       color: #222;
       background: #fafafa;
     }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 2rem;
+      font-size: 0.9em;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #8a5a2b;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
     header {
       text-align: center;
       margin-bottom: 3rem;
@@ -119,12 +131,6 @@
       color: #8a5a2b;
       border-bottom-color: #8a5a2b;
     }
-    .scene-break {
-  text-align: center;
-  letter-spacing: 0.6em;
-  color: #999;
-  margin: 3rem 0;
-}
     p {
       margin: 1.2em 0;
     }
@@ -138,10 +144,19 @@
       border-radius: 4px;
     }
     figcaption {
+      margin-top: 0.8em;
       font-style: italic;
-      font-size: 0.95em;
-      color: #555;
-      margin-top: 0.6em;
+      font-size: 0.9em;
+      color: #666;
+    }
+    .chapter-nav {
+      margin-top: 3.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #ccc;
+      text-align: center;
+      font-size: 0.9em;
+      font-style: italic;
+      color: #999;
     }
     footer {
       text-align: center;
@@ -163,10 +178,10 @@
 <body>
 <article>
 
-  <a class="back-link" href="index.html">&larr; All Stories</a>
+  <a class="back-link" href="index.html">&larr; The GoldenPaw Series</a>
   
   <div class="story-title-block">
-    <p class="series-label">A GoldenPaw Story</p>
+    <p class="series-label">GoldenPaw &mdash; Story Two</p>
     <h1 class="story-title">The Sound in the Stone</h1>
     <p class="story-subtitle">Thyangoche, the Khumbu &mdash; Nepal</p>
   </div>
@@ -1071,9 +1086,10 @@
 
   <p class="back-to-toc"><a href="#toc">&uarr; Contents</a></p>
   
+  <p class="chapter-nav">The End</p>
+
   <footer>
-    <p><em>The End</em></p>
-    <p><a href="index.html">&larr; Back to All Stories</a></p>
+    <p><a href="index.html">The GoldenPaw Series</a></p>
   </footer>
 </article>
 </body>

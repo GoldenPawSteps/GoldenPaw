@@ -51,6 +51,30 @@
       color: #777;
       margin: 0 0 2rem 0;
     }
+    .region-section {
+      margin: 0 0 3.5rem 0;
+    }
+    .region-heading {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 0 0 1.75rem 0;
+    }
+    .region-heading::before,
+    .region-heading::after {
+      content: "";
+      flex: 1;
+      border-top: 1px solid #ccc;
+    }
+    .region-name {
+      font-size: 1.15em;
+      font-weight: normal;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: #8a5a2b;
+      margin: 0;
+      white-space: nowrap;
+    }
     .story-list {
       list-style: none;
       margin: 0;
@@ -133,72 +157,88 @@
   <main>
     <h2 class="stories-heading">The Stories</h2>
 
-    <ol class="story-list">
+    <section class="region-section" id="asia">
+      <div class="region-heading">
+        <h3 class="region-name">Asia</h3>
+      </div>
 
-      <li>
-        <a class="story-card" href="the-second-frequency.html">
-          <p class="story-index">Story One</p>
-          <h3 class="story-name">The Second Frequency</h3>
-          <p class="story-setting">Jiankou, the Great Wall &mdash; Huairou, China</p>
-          <p class="story-blurb">
-            A signal that matches no known equipment pulses from the wild,
-            broken heart of the Great Wall. An old man has been waiting
-            eleven years for someone to give a notebook to. And a stone that
-            calls once a decade is entering its final night.
-          </p>
-        </a>
-      </li>
+      <ol class="story-list">
 
-            <li>
-        <a class="story-card" href="the-sound-in-the-stone.html">
-          <p class="story-index">Story Two</p>
-          <h3 class="story-name">The Sound in the Stone</h3>
-          <p class="story-setting">Thyangoche, the Khumbu &mdash; Nepal</p>
-          <p class="story-blurb">
-            A village burns at 5,400 metres, and men in black thermal suits
-            are climbing away from it carrying detonators. Below the moraine,
-            a shaft descends to something that has been humming since before
-            the monastery was built. And a nine-year-old boy is the only one
-            who knows what was in the box.
-          </p>
-        </a>
-      </li>
+        <li>
+          <a class="story-card" href="the-second-frequency.html">
+            <p class="story-index">Story One</p>
+            <h4 class="story-name">The Second Frequency</h4>
+            <p class="story-setting">Jiankou, the Great Wall &mdash; Huairou, China</p>
+            <p class="story-blurb">
+              A signal that matches no known equipment pulses from the wild,
+              broken heart of the Great Wall. An old man has been waiting
+              eleven years for someone to give a notebook to. And a stone that
+              calls once a decade is entering its final night.
+            </p>
+          </a>
+        </li>
 
-      <li>
-        <a class="story-card" href="into-the-wind.html">
-          <p class="story-index">Story Three</p>
-          <h3 class="story-name">Into the Wind</h3>
-          <p class="story-setting">Above Thorong La, the Annapurna massif &mdash; Nepal</p>
-          <p class="story-blurb">
-            A storm window is closing over the Annapurna Circuit, and a
-            twelve-year-old boy who followed a fox is somewhere above the
-            cairns. The rescue is the easy part. On the long way back through
-            the western passes, the wind carries something GoldenPaw set
-            aside three years ago &mdash; and it has been tracking him ever
-            since.
-          </p>
-        </a>
-      </li>
+        <li>
+          <a class="story-card" href="the-sound-in-the-stone.html">
+            <p class="story-index">Story Two</p>
+            <h4 class="story-name">The Sound in the Stone</h4>
+            <p class="story-setting">Thyangoche, the Khumbu &mdash; Nepal</p>
+            <p class="story-blurb">
+              A village burns at 5,400 metres, and men in black thermal suits
+              are climbing away from it carrying detonators. Below the moraine,
+              a shaft descends to something that has been humming since before
+              the monastery was built. And a nine-year-old boy is the only one
+              who knows what was in the box.
+            </p>
+          </a>
+        </li>
 
-      <!-- Template for future stories: copy the block below, update the
-           href, index, name, setting, and blurb.
+        <li>
+          <a class="story-card" href="into-the-wind.html">
+            <p class="story-index">Story Three</p>
+            <h4 class="story-name">Into the Wind</h4>
+            <p class="story-setting">Above Thorong La, the Annapurna massif &mdash; Nepal</p>
+            <p class="story-blurb">
+              A storm window is closing over the Annapurna Circuit, and a
+              twelve-year-old boy who followed a fox is somewhere above the
+              cairns. The rescue is the easy part. On the long way back through
+              the western passes, the wind carries something GoldenPaw set
+              aside three years ago &mdash; and it has been tracking him ever
+              since.
+            </p>
+          </a>
+        </li>
 
-      <li>
-        <a class="story-card" href="story-file-name.html">
-          <p class="story-index">Story Two</p>
-          <h3 class="story-name">Story Title</h3>
-          <p class="story-setting">Location</p>
-          <p class="story-blurb">
-            One- or two-sentence teaser for the story.
-          </p>
-        </a>
-      </li>
+      </ol>
+    </section>
 
-      -->
+    <!-- Template for future regions: copy the block below, update the
+         id, region name, and add story cards inside the list.
 
-    </ol>
+    <section class="region-section" id="region-id">
+      <div class="region-heading">
+        <h3 class="region-name">Region Name</h3>
+      </div>
 
-    <p class="coming-soon">More stories coming soon.</p>
+      <ol class="story-list">
+
+        <li>
+          <a class="story-card" href="story-file-name.html">
+            <p class="story-index">Story Four</p>
+            <h4 class="story-name">Story Title</h4>
+            <p class="story-setting">Location</p>
+            <p class="story-blurb">
+              One- or two-sentence teaser for the story.
+            </p>
+          </a>
+        </li>
+
+      </ol>
+    </section>
+
+    -->
+
+    <p class="coming-soon">More stories coming soon &mdash; from new corners of the world.</p>
   </main>
 
   <footer>
